@@ -84,5 +84,5 @@ More projects and details available on request.
 ## Contact
 
 - Email: <chhenning@gmail.com>  
-- GitHub: [YOURUSERNAME](https://github.com/chhenning)  
-- LinkedIn: [your-handle](https://www.linkedin.com/in/chhenning)
+- GitHub: [chhenning](https://github.com/chhenning)  
+- LinkedIn: [chhenning](https://www.linkedin.com/in/chhenning)
