@@ -1,88 +1,67 @@
 ---
 layout: default
-title: "Christian Henning"
+title: "Projects"
 ---
 
-# Christian Henning
+# Current Projects
 
-**VP Data Engineering · Software Engineer · AI & Analytics**
-
-Location: Rye Brook, NY · Email: your.email@example.com · GitHub: [chhenning](https://github.com/chhenning) · LinkedIn: [chhenning](https://www.linkedin.com/in/chhenning)
-
----
-
-## About
-
-I’m a software and data engineer with 20+ years of experience building
-scalable backends, data pipelines, and AI-powered applications. I work
-across Python, SQL, cloud platforms, and modern data tooling to turn
-messy, real-world data into reliable, usable products.
-
-I enjoy designing systems end-to-end: ingestion and scraping, storage
-and modeling, analytics and reporting, and LLM integrations.
+A selection of things I’m actively working on right now.
 
 ---
 
-## Experience
+## Menu Intelligence Platform
 
-### VP of Data Engineering — Overproof, Inc.  
-*April 2023 – Present · Remote*
+<span class="badge">Python</span>
+<span class="badge">Postgres</span>
+<span class="badge">AWS</span>
+<span class="badge">LLM</span>
 
-- Lead a 10-person engineering team building an AI-native beverage analytics platform.
-- Designed large-scale pipelines to collect, parse, and normalize restaurant menus (HTML, PDFs, images).
-- Built LLM-based extraction services (OpenAI / Gemini / others) for menu items and beverage metadata.
-- Architected data marts in Postgres/Snowflake to support analytics for 100+ clients.
+End-to-end pipeline that ingests restaurant menus at scale, extracts
+items and prices, and normalizes them into a unified beverage database.
 
-### Senior Software Engineer / Data Engineer  
-*Previous roles (insurance, startups, financial modeling)*
-
-- Built and optimized high-performance risk and catastrophe models in C++ and Python.
-- Designed ETL pipelines and custom data tooling for actuarial and modeling teams.
-- Worked closely with non-technical stakeholders to translate business questions into data products.
+- Scraping with headless browsers (Playwright) across thousands of venues.
+- Parsing PDFs, HTML, and images into structured menu items.
+- LLM-based extraction and classification of beverages (beer, wine, spirits, non-alc).
+- Analytics layer for pricing, assortment, and competitive insights.
 
 ---
 
-## Selected Projects
+## Newsletter Knowledge Base
 
-### Menu Intelligence Platform
+<span class="badge">Python</span>
+<span class="badge">SQLite</span>
+<span class="badge">Embeddings</span>
 
-**Stack:** Python, Postgres, AWS, Playwright, LLMs  
-Built a full menu ingestion pipeline:
-- Scraped restaurant websites at scale with headless browsers.
-- Extracted menu items and prices from PDFs, HTML, images with OCR + LLMs.
-- Normalized beverages into a unified product database (beer, wine, cocktails, non-alc).
-- Exposed analytics via BI dashboards and custom APIs.
+Experimental knowledge base that ingests finance/newsletters and makes
+them searchable via semantic search and entity extraction.
 
-### Newsletter Knowledge Base
-
-**Stack:** Python, SQLite, embeddings, local/remote LLMs  
-- Ingested financial newsletters into a searchable knowledge base.
-- Implemented TF-IDF + vector search for entity and topic retrieval.
-- Built NER / extraction prompts and evaluation harnesses.
-
-More projects and details available on request.
+- Ingest pipeline from email/mailbox into SQLite.
+- TF–IDF and vector search to find related articles and entities.
+- Named entity extraction and evaluation harness for prompts and models.
 
 ---
 
-## Skills
+## Data Scraping & Tooling
 
-- **Languages:** Python, SQL, C++, Bash
-- **Data & Analytics:** Postgres, Snowflake, dbt, Pandas, NumPy
-- **Cloud & DevOps:** AWS, GCP, Docker, GitHub Actions
-- **AI / LLM:** OpenAI, Google Gemini, local LLMs (Ollama), retrieval & evaluation
-- **Other:** Web scraping (Playwright), ETL, data modeling, performance tuning
+<span class="badge">Python</span>
+<span class="badge">Playwright</span>
+<span class="badge">CLI Tools</span>
 
----
+Reusable tooling for large-scale web scraping and data collection.
 
-## Speaking & Writing
-
-- Regularly present internal talks on data architecture, LLM evaluation, and cost tracking.
-- Building public resources on scraping, data engineering, and AI-native product design.
+- Opinionated wrappers around Playwright for resilient scraping.
+- Utilities for scheduling, retries, and HTML snapshot storage.
+- Patterns for building “scraping as a service” style pipelines.
 
 ---
 
-## Contact
+## Creative / Side Projects
 
-- Email: <chhenning@gmail.com>  
-- GitHub: [chhenning](https://github.com/chhenning)  
-- LinkedIn: [chhenning](https://www.linkedin.com/in/chhenning)
+<span class="badge">Music</span>
+<span class="badge">Generative Art</span>
+
+- Ableton-based projects for teaching kids basic music and sequencing.
+- Experiments in generative art / flow fields using Python and notebooks.
+
+If you’re interested in any of these or want to collaborate, feel free to
+[reach out](mailto:YOUR_EMAIL@example.com).
