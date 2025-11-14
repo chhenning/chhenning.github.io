@@ -1,0 +1,111 @@
+/* Base layout */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #111;
+  background: #f5f5f5;
+}
+
+#wrapper {
+  max-width: 840px;
+  margin: 3rem auto 4rem;
+  padding: 0 1rem;
+}
+
+/* Top navigation */
+
+#top-nav {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.5rem;
+}
+
+#top-nav a {
+  text-decoration: none;
+  color: #0044aa;
+}
+
+#top-nav a:hover {
+  text-decoration: underline;
+}
+
+#top-nav .separator {
+  color: #999;
+  margin: 0 0.4rem;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 2.2rem 0 0.6rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1.4rem 0 0.2rem;
+}
+
+.tagline {
+  margin: 0 0 1.8rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Links */
+
+a {
+  color: #0044aa;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists and items */
+
+ul {
+  margin: 0.4rem 0 1.2rem 1.4rem;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 1.2rem;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.item .meta {
+  margin: 0.1rem 0 0.4rem;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: #777;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
