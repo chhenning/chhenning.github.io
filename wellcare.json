@@ -1,0 +1,1908 @@
+{
+  "document_metadata": {
+    "source_type": "ACA_health_plan_pdf",
+    "extraction_notes": "Tables spanning multiple pages are consolidated where the structure remains consistent. In 'Part D Prescription Drug Coverage', the grid columns shift between 2-column text sections and 3-column cost-sharing grids; these are modeled within a single table using colspans. The top row of Page 7 is treated as a continuation of the 'Diagnostic radiology services' category from Page 6."
+  },
+  "tables": [
+    {
+      "table_id": "table_1",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "title": "Benefits",
+      "note": "Main medical benefits table spanning multiple pages.",
+      "column_headers": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Benefits",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Wellcare Premium Ultra (HMO)\nH0562, Plan 009",
+            "subcells": null
+          }
+        ]
+      ],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Monthly plan premium\n(includes both medical and\ndrugs)",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$144\n\nYou must continue to pay your Medicare Part B premium.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Deductible",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$100 deductible for select Part B services",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 2,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Maximum Out-of-Pocket\nResponsibility\n(does not include prescription\ndrugs)",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$9,350 annually\nThis is the most you will pay in copays and coinsurance for\nPart A and B services for the year.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 3,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Inpatient Hospital coverage",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "For each admission, you pay:\n• $350 copay per day for days 1 through 7\n• $0 copay per day for days 8 through 90\n• $0 copay per day for days 91 through 100\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 4,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Outpatient Hospital coverage\nOutpatient hospital services",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay for Medicare-covered diagnostic colonoscopy.\n$375 copay for all other outpatient services.\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 5,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Outpatient hospital\nobservation services",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$110 copay for outpatient observation services when you\nenter observation status through an emergency room.\n$375 copay for outpatient observation services when you\nenter observation status through an outpatient facility.\n▪",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 6,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Ambulatory Surgical Center\n(ASC) services",
+            "subcells": null
+          },
+          {
+            "row_index": 6,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$325 copay for each Medicare-covered visit to an\nambulatory surgical center, including Medicare-covered\ndiagnostic colonoscopy.\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 7,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Doctor Visits\n\nPrimary Care Providers",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 8,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Specialists",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 9,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Preventive Care (e.g., Annual\nWellness visit, Bone mass\nmeasurement, Breast cancer\nscreening (mammogram),\nCardiovascular screenings,\nCervical and vaginal cancer\nscreening, Colorectal cancer\nscreenings, Diabetes screenings,\nHepatitis B Virus Screening,\nProstate cancer screenings (PSA),\nVaccines (including Flu/influenza\nshots, Hepatitis B shots,\nPneumococcal shots, COVID\nshots))",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 10,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Emergency care",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$110 copay\nCopay is waived if you are admitted to a hospital within 24\nhours.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 11,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Worldwide Emergency\nCoverage",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$110 copay\n\nWorldwide emergency and worldwide urgently needed\nservices are subject to a $50,000 maximum plan coverage.\nThere is no worldwide coverage for care outside of the\nemergency room or emergency hospital admission. The\ncopay is not waived if admitted to the hospital for worldwide\nemergency services.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 12,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Urgently needed services",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$25 copay\nCopay is waived if you are admitted to a hospital within 24\nhours.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 13,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Worldwide Urgent Care\nCoverage",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$110 copay\n\nWorldwide emergency and worldwide urgently needed\nservices are subject to a $50,000 maximum plan coverage.\nThe copay is not waived if admitted to the hospital for\nworldwide urgently needed services.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 14,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Diagnostic\nServices/Labs/Imaging\nLab services",
+            "subcells": null
+          },
+          {
+            "row_index": 14,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay for all other labs.\n$50 copay for genetic testing.\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 15,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Diagnostic Tests and\nProcedures",
+            "subcells": null
+          },
+          {
+            "row_index": 15,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 16,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Outpatient X-rays",
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$100 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 17,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Diagnostic radiology services\n(e.g. MRI, CAT Scan)",
+            "subcells": null
+          },
+          {
+            "row_index": 17,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay for a diagnostic mammogram.\n$375 copay for all other diagnostic radiology services\nreceived in an outpatient setting.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 18,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": null,
+            "subcells": null
+          },
+          {
+            "row_index": 18,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$350 copay for all other services received in all other\nlocations.\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 19,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Therapeutic Radiology",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 20,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Hearing services\nHearing Exam\nMedicare-Covered",
+            "subcells": null
+          },
+          {
+            "row_index": 20,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 21,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Routine hearing exam",
+            "subcells": null
+          },
+          {
+            "row_index": 21,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*\n\n1 exam(s) every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 22,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Hearing Aids\n\nHearing Aid\nFitting/Evaluation(s)",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*\n\n1 fitting(s) / evaluation(s) every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 23,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Hearing aid allowance\nAll types",
+            "subcells": null
+          },
+          {
+            "row_index": 23,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Up to a $500 allowance per ear every year for hearing aids.\n$0 copay\n*\n\nLimited to 2 hearing aid(s) every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 24,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Additional Hearing Information",
+            "subcells": null
+          },
+          {
+            "row_index": 24,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "What you should know\nMedicare covers diagnostic hearing and balance exams if\nyour doctor or other health care provider orders these tests\nto see if you need medical treatment.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 25,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Dental services\nComprehensive services\nMedicare-covered",
+            "subcells": null
+          },
+          {
+            "row_index": 25,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay for each Medicare-covered service.\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 26,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Routine Diagnostic and\nPreventive Services",
+            "subcells": null
+          },
+          {
+            "row_index": 26,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*\n\nCleanings 2 every year\nDental x-rays 1 set(s) every year\nOral exams 2 every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 27,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Fluoride Treatment",
+            "subcells": null
+          },
+          {
+            "row_index": 27,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*\n\n1 every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 28,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Other Diagnostic Dental\nservices",
+            "subcells": null
+          },
+          {
+            "row_index": 28,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n*\n\nUnlimited services every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 29,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Other Preventive Dental\nservices",
+            "subcells": null
+          },
+          {
+            "row_index": 29,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 - $55 copay\n*\n\nUnlimited services every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 30,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Routine Comprehensive\nservices\nRestorative Services",
+            "subcells": null
+          },
+          {
+            "row_index": 30,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 - $300 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 31,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Endodontics/Periodontics",
+            "subcells": null
+          },
+          {
+            "row_index": 31,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 - $375 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 32,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Oral/Maxillofacial Surgery",
+            "subcells": null
+          },
+          {
+            "row_index": 32,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 - $70 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 33,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Prosthodontics -\nfixed",
+            "subcells": null
+          },
+          {
+            "row_index": 33,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 - $225 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 34,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Prosthodontics -\nremovable",
+            "subcells": null
+          },
+          {
+            "row_index": 34,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$70 - $250 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 35,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Orthodontics",
+            "subcells": null
+          },
+          {
+            "row_index": 35,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 - $2,250 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 36,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Adjunctive General\nServices",
+            "subcells": null
+          },
+          {
+            "row_index": 36,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 - $125 copay\n*\n\nFor more information, limitations and exclusions, please\nsee your Evidence of Coverage. Additional dental\nlimitations and exclusions apply.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 37,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Additional Dental Information",
+            "subcells": null
+          },
+          {
+            "row_index": 37,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "What you should know:\nThis plan provides dental services with no annual maximum\nallowance.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 38,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Vision Services\nEye Exam\nMedicare Covered",
+            "subcells": null
+          },
+          {
+            "row_index": 38,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay (Medicare-covered diabetic retinopathy screening)\n$15 copay (all other Medicare-covered eye exams)\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 39,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Routine eye exam (Refraction)",
+            "subcells": null
+          },
+          {
+            "row_index": 39,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*\n\n1 exam(s) every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 40,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Glaucoma screening",
+            "subcells": null
+          },
+          {
+            "row_index": 40,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay for each Medicare-covered service.\n▪",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 41,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Eyewear\nMedicare Covered",
+            "subcells": null
+          },
+          {
+            "row_index": 41,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 42,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Routine eyewear\nContact lenses/Eyeglasses\n(lenses and\nframes)/Eyeglass frames",
+            "subcells": null
+          },
+          {
+            "row_index": 42,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 43,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Eyewear allowance",
+            "subcells": null
+          },
+          {
+            "row_index": 43,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Up to a $100 combined allowance towards contacts and\nglasses (lenses and/or frames) every year.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 44,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Mental Health Services\n\nInpatient visit",
+            "subcells": null
+          },
+          {
+            "row_index": 44,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "For each admission, you pay:\n• $290 copay per day for days 1 through 7\n• $0 copay per day for days 8 through 90\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 45,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Outpatient individual therapy\nvisit",
+            "subcells": null
+          },
+          {
+            "row_index": 45,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$25 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 46,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Outpatient group therapy visit",
+            "subcells": null
+          },
+          {
+            "row_index": 46,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$25 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 47,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Skilled nursing facility (SNF)",
+            "subcells": null
+          },
+          {
+            "row_index": 47,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "For each admission, you pay:\n• $0 copay per day for days 1 through 20\n• $214 copay per day for days 21 through 70\n• $0 copay per day for days 71 through 100\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 48,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Therapy and Rehabilitation\nServices\n\nPhysical Therapy",
+            "subcells": null
+          },
+          {
+            "row_index": 48,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 49,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Outpatient rehabilitation\nservices provided by an\noccupational therapist",
+            "subcells": null
+          },
+          {
+            "row_index": 49,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 50,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Pulmonary rehabilitation\nservices",
+            "subcells": null
+          },
+          {
+            "row_index": 50,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n▪",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 51,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Ambulance\n\nGround Ambulance",
+            "subcells": null
+          },
+          {
+            "row_index": 51,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$300 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 52,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Air Ambulance",
+            "subcells": null
+          },
+          {
+            "row_index": 52,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$300 copay\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 53,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Transportation Services",
+            "subcells": null
+          },
+          {
+            "row_index": 53,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Not covered",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 54,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Medicare Part B Drugs\nChemotherapy Drugs and\nOther Part B Drugs",
+            "subcells": null
+          },
+          {
+            "row_index": 54,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance\n*\nCertain Part B rebatable drugs may be subject to a lower\ncoinsurance than the amount shown above. The list of Part B\nrebatable drugs that are subject to a lower coinsurance is\npublished by the Centers for Medicare & Medicaid Services\n(CMS) and may change quarterly.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 55,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Insulin",
+            "subcells": null
+          },
+          {
+            "row_index": 55,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$35 copay (maximum per month)\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 56,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Allergy Antigen",
+            "subcells": null
+          },
+          {
+            "row_index": 56,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance\n*",
+            "subcells": null
+          }
+        ]
+      ]
+    },
+    {
+      "table_id": "table_2",
+      "pages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "title": "Part D Prescription Drug Coverage",
+      "note": "Includes deductible, initial coverage, mail-order cost sharing, and catastrophic coverage stages. Structure varies between text blocks and 3-column grids.",
+      "column_headers": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Part D Prescription\nDrug Coverage",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 2,
+            "raw_text": "Wellcare Premium Ultra (HMO)\nH0562, Plan 009",
+            "subcells": null
+          }
+        ]
+      ],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Stage 1: Yearly Deductible Stage",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Deductible",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 2,
+            "raw_text": "$420 for Part D prescription drugs (this applies to drugs on Tier 3\n(Preferred Brand Drugs), Tier 4 (Non-Preferred Drugs), Tier 5 (Specialty\nTier)). For all other covered drugs, you will not have to pay any deductible\nand will start receiving coverage immediately. The deductible doesn’t\napply to covered insulin products and most adult Part D vaccines including\nshingles, tetanus, and travel vaccines.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 2,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Stage 2: Initial Coverage Stage (after you pay your deductible, if applicable)",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 3,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "You stay in the Initial Coverage Stage until your total out-of-pocket costs reach $2,000. You then\nmove on to the Catastrophic Coverage Stage.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 4,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Important Message About What You Pay for Vaccines:\nOur plan covers most Part D vaccines at no cost to you, even if you have not paid your\ndeductible (if your plan has a deductible).",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 5,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Important Message About What You Pay for Insulin:\nYou won’t pay more than $35 for up to a one-month supply, $70 for up to a two-month supply\nor $105 for up to a three-month supply of each covered insulin product regardless of the\ncost-sharing tier, even if you have not paid your deductible (if your plan has a deductible).",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 6,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Retail cost-sharing (30-day/Up to a 100-day supply)",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 7,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": null,
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Preferred",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Standard",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 8,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 1\n(Preferred Generic\nDrugs) includes\npreferred generic\ndrugs and may\ninclude some brand\ndrugs.",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 / $0 copay",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$5 / $15 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 9,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 2\n(Generic Drugs)\nincludes generic\ndrugs and may\ninclude some brand\ndrugs",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 / $0 copay",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$10 / $30 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 10,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 3\n(Preferred Brand\nDrugs) includes\npreferred brand\ndrugs and may\ninclude some\ngeneric drugs.",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "25% / 25% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "25% / 25% coinsurance",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 11,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 4\n(Non-Preferred\nDrugs) includes\nnon-preferred\nbrand and\nnon-preferred\ngeneric drugs.",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "50% / 50% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "50% / 50% coinsurance",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 12,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 5\n(Specialty Tier)\nincludes high cost\nbrand and generic\ndrugs. Drugs in this\ntier are not eligible\nfor exceptions for\npayment at a lower\ntier.",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "28% coinsurance / Not Available\n\nLimited to 30 day supply",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "28% coinsurance / Not Available\n\nLimited to 30 day supply",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 13,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 6\n(Select Care Drugs)\nincludes some\ngeneric and brand\ndrugs commonly\nused to treat\nspecific chronic\nconditions or to\nprevent disease\n(vaccines)",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0/$0 copay",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0/$0 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 14,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Stage 2: Initial Coverage Stage (after you pay your deductible, if applicable) (Continued)",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 15,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Mail-order cost-sharing (30-day/Up to a 100-day supply)",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 16,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": null,
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Preferred",
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Standard",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 17,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 1\n(Preferred Generic\nDrugs) includes\npreferred generic\ndrugs and may\ninclude some brand\ndrugs.",
+            "subcells": null
+          },
+          {
+            "row_index": 17,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 / $0 copay",
+            "subcells": null
+          },
+          {
+            "row_index": 17,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$5 / $15 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 18,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 2\n(Generic Drugs)\nincludes generic\ndrugs and may\ninclude some brand\ndrugs",
+            "subcells": null
+          },
+          {
+            "row_index": 18,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 / $0 copay",
+            "subcells": null
+          },
+          {
+            "row_index": 18,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$10 / $30 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 19,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 3\n(Preferred Brand\nDrugs) includes\npreferred brand\ndrugs and may\ninclude some\ngeneric drugs.",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "25% / 25% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "25% / 25% coinsurance",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 20,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 4\n(Non-Preferred\nDrugs) includes\nnon-preferred\nbrand and\nnon-preferred\ngeneric drugs.",
+            "subcells": null
+          },
+          {
+            "row_index": 20,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "50% / 50% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 20,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "50% / 50% coinsurance",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 21,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 5\n(Specialty Tier)\nincludes high cost\nbrand and generic\ndrugs. Drugs in this\ntier are not eligible\nfor exceptions for\npayment at a lower\ntier.",
+            "subcells": null
+          },
+          {
+            "row_index": 21,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "28% coinsurance / Not Available\n\nLimited to 30 day supply",
+            "subcells": null
+          },
+          {
+            "row_index": 21,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "28% coinsurance / Not Available\n\nLimited to 30 day supply",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 22,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 6\n(Select Care Drugs)\nincludes some\ngeneric and brand\ndrugs commonly\nused to treat\nspecific chronic\nconditions or to\nprevent disease\n(vaccines)",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 / $0 copay",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 / $0 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 23,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "Stage 3: Catastrophic Coverage Stage",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 24,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 3,
+            "raw_text": "You enter this stage after your yearly out-of-pocket drug costs (including\ndrugs purchased through your retail pharmacy and through mail order)\nreach $2,000.\nOnce you are in the Catastrophic Coverage Stage, you will stay in this\npayment stage until the end of the calendar year. During this payment\nstage, the plan pays the full cost for your covered Part D drugs. You pay\nnothing.",
+            "subcells": null
+          }
+        ]
+      ]
+    },
+    {
+      "table_id": "table_3",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "title": "Additional Benefits",
+      "note": "Table listing additional benefits not covered in the main benefits table.",
+      "column_headers": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Additional Benefits",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Wellcare Premium Ultra (HMO)\nH0562, Plan 009",
+            "subcells": null
+          }
+        ]
+      ],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Chiropractic Services\nMedicare-covered",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Acupuncture\n\nMedicare-covered",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay for Medicare-covered Acupuncture received in a\nPCP office.\n$15 copay for Medicare-covered Acupuncture received in a\nChiropractor office.\n$15 copay for Medicare-covered Acupuncture received in a\nSpecialist office.\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 2,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Podiatry Services (Foot Care)\nMedicare Covered",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 3,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Routine Podiatry Services",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n▪\n*\n\n6 visit(s) every year",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 4,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Virtual Visits",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay for virtual visit services performed through\nTeladoc.\nOur plan offers 24 hours per day, 7 days per week virtual\nvisit access to board certified doctors via Teladoc to help\naddress a wide variety of health concerns/questions.\nCovered services include general medical, behavioral health,\ndermatology, and more.\nA virtual visit (also known as a telehealth consult) is a visit\nwith a doctor either over the phone or internet using a\nsmart phone, tablet, or a computer. Certain types of visits\nmay require internet and a camera-enabled device. For\nmore information, or to schedule an appointment, call\nTeladoc at 1-800-835-2362 (TTY: 711) 24 hours a day, 7 days\na week.\nWhat you should know:\nThe $0 copay above only applies when services are received\nfrom Teladoc. If you receive telemedicine services from a\nnetwork provider and not the virtual visit vendor, you will\npay the cost shares listed for those providers, as outlined\nwithin the Evidence of Coverage (e.g., if you receive\ntelehealth services from your PCP, you will pay the PCP cost\nshare).\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 5,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Social Support Platform",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Our plan provides an online social support platform to\nsupport your overall well-being. You have access to\ncommunity, therapeutic activities, and plan-sponsored\nresources to help manage stress and anxiety. The Twill\nplatform makes it easy for you to join and stay involved to\nmaintain a healthy behavioral health journey. It is available\nonline 24/7, so you can use it whenever you want.\nFor more information on how to access the platform please\nsee your Evidence of Coverage.\n$0 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 6,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Home health agency care",
+            "subcells": null
+          },
+          {
+            "row_index": 6,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 7,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Medical Equipment/Supplies\nDurable Medical Equipment\n(DME)",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 8,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Prosthetics",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 9,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Diabetic Supplies",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n*\n\nFor more information, limitations and exclusions, please see\nyour Evidence of Coverage.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 10,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Diabetic therapeutic shoes or\ninserts",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 11,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Opioid treatment program\nservices",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$15 copay\n▪\n*",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 12,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Health and Wellness Education\nPrograms\nFitness",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "For a detailed list of wellness education program benefits\noffered, please refer to the Evidence of Coverage.\n$0 copay\n\nWhat you should know:\nThe benefit on this plan provides a membership to a flexible\nfitness benefit with monthly credits to use on a variety of\nlarger gyms or local fitness studios. Members will have 32\ncredits each month to utilize. Credits will be sufficient to\ncover a monthly gym membership and/or fitness studio\nclasses, or at-home fitness boxes and fitness videos.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 13,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "24-Hour Nurse Advice Line",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 14,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Annual Routine Physical Exam",
+            "subcells": null
+          },
+          {
+            "row_index": 14,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copay\n\nWhat you should know:\nThe exam includes a detailed medical/family history and\nrecommendations for preventive screenings/care.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 15,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "My Wellcare Rewards",
+            "subcells": null
+          },
+          {
+            "row_index": 15,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "With My Wellcare Rewards, you earn points for completing\neligible healthy activities.\nPoints can be redeemed for gift cards, up to $75 per year,\nfrom your favorite stores like Walmart®, and more. You can\nstart earning points just by registering. Some qualifying\nhealthy actions include:\n• Completing the Health Risk Assessment\n• Connecting a fitness device\n• Annual wellness visits\n• Annual flu vaccines\n• Cancer screenings\n• A1C testing\nGift card restrictions may apply.",
+            "subcells": null
+          }
+        ]
+      ]
+    }
+  ],
+  "extraction_warnings": []
+}
