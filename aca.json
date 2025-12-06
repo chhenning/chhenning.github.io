@@ -1,0 +1,2543 @@
+{
+  "document_metadata": {
+    "source_type": "ACA_health_plan_pdf",
+    "extraction_notes": "Extracted tables include the 'Important Questions' summary, the main 'Common Medical Events' benefits grid, the 'Excluded/Other Covered Services' lists, the 'Coverage Examples' cost sharing table, and the 'Language Access Services' list."
+  },
+  "tables": [
+    {
+      "table_id": "table_1",
+      "pages": [
+        1
+      ],
+      "title": "Important Questions",
+      "note": null,
+      "column_headers": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Important Questions",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Answers",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Why This Matters:",
+            "subcells": null
+          }
+        ]
+      ],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "What is the overall deductible?",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,500/person or $2,800/member or $3,000/family for In-Network Providers. $3,000/person or $3,000/member or $6,000/family for Non-Network Providers.",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Generally, you must pay all of the costs from providers up to the deductible amount before this plan begins to pay. If you have other family members on the plan, each family member must meet their own individual deductible until the total amount of deductible expenses paid by all family members meets the overall family deductible.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Are there services covered before you meet your deductible?",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Yes. Preventive Care for In-Network Providers. Vision for In-Network and Non-Network Providers.",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "This plan covers some items and services even if you haven’t yet met the deductible amount. But a copayment or coinsurance may apply. For example, this plan covers certain preventive services without cost-sharing and before you meet your deductible. See a list of covered preventive services at https://www.healthcare.gov/coverage/preventive-care-benefits/.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 2,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Are there other deductibles for specific services?",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "No.",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "You don't have to meet deductibles for specific services.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 3,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "What is the out-of-pocket limit for this plan?",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$6,450/person or $6,450/member or $12,900/family for In-Network Providers. $7,500/person or $7,500/member or $15,000/family for Non-Network Providers.",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "The out-of-pocket limit is the most you could pay in a year for covered services. If you have other family members in this plan, they have to meet their own out-of-pocket limits until the overall family out-of-pocket limit has been met.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 4,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "What is not included in the out-of-pocket limit?",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Premiums, balance-billing charges, and health care this plan doesn't cover.",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Even though you pay these expenses, they don’t count toward the out-of-pocket limit.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 5,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Will you pay less if you use a network provider?",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Yes, Prudent Buyer PPO. See www.anthem.com/ca or call (855) 333-5730 for a list of network providers.",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "This plan uses a provider network. You will pay less if you use a provider in the plan’s network. You will pay the most if you use an Out-of-Network Provider, and you might receive a bill from a provider for the difference between the provider’s charge and what your plan pays (balance billing). Be aware, your network provider might use an Out-of-Network Provider for some services (such as lab work). Check with your provider before you get services.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 6,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Do you need a referral to see a specialist?",
+            "subcells": null
+          },
+          {
+            "row_index": 6,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "No.",
+            "subcells": null
+          },
+          {
+            "row_index": 6,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "You can see the specialist you choose without a referral.",
+            "subcells": null
+          }
+        ]
+      ]
+    },
+    {
+      "table_id": "table_2",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "title": "Common Medical Events",
+      "note": "Main benefit grid spanning pages 2-4",
+      "column_headers": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "Common Medical Event",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "Services You May Need",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 2,
+            "raw_text": "What You Will Pay",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 4,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "Limitations, Exceptions, & Other Important Information",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "In-Network Provider (You will pay the least)",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Non-Network Provider (You will pay the most)",
+            "subcells": null
+          }
+        ]
+      ],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 3,
+            "colspan": 1,
+            "raw_text": "If you visit a health care provider’s office or clinic",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Primary care visit to treat an injury or illness",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Specialist visit",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 2,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Preventive care/ screening/ immunization",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "No charge",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "You may have to pay for services that aren't preventive. Ask your provider if the services needed are preventive. Then check what your plan will pay for.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 3,
+            "col_index": 0,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "If you have a test",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Diagnostic test (x-ray, blood work)",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 4,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Imaging (CT/PET scans, MRIs)",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$800 maximum/service for Non-Network Providers.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 5,
+            "col_index": 0,
+            "rowspan": 4,
+            "colspan": 1,
+            "raw_text": "If you need drugs to treat your illness or condition\nMore information about prescription drug coverage is available at http://www.anthem.com/pharmacyinformation/",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 1 - Typically Generic",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$10/prescription (retail) and $20/prescription (home delivery)",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "30% coinsurance up to $250/prescription (retail) and Not covered (home delivery)",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 4,
+            "rowspan": 4,
+            "colspan": 1,
+            "raw_text": "Most home delivery is 90-day supply. For more information, refer to “National Drug List” at http://www.anthem.com/pharmacyinformation/\n*See Prescription Drug section of the plan or policy document (e.g. evidence of coverage or certificate).",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 6,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 2 - Typically Preferred Brand & Non-Preferred Generic Drugs",
+            "subcells": null
+          },
+          {
+            "row_index": 6,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$20/prescription (retail) and $40/prescription (home delivery)",
+            "subcells": null
+          },
+          {
+            "row_index": 6,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "30% coinsurance up to $250/prescription (retail) and Not covered (home delivery)",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 7,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 3 - Typically Non-Preferred Brand and Generic drugs",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$30/prescription (retail) and $60/prescription (home delivery)",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "30% coinsurance up to $250/prescription (retail) and Not covered (home delivery)",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 8,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tier 4 - Typically Preferred Specialty (brand and generic)",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$30/prescription (retail and home delivery)",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "30% coinsurance up to $250/prescription (retail) and Not covered (home delivery)",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 9,
+            "col_index": 0,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "If you have outpatient surgery",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Facility fee (e.g., ambulatory surgery center)",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$350 maximum/service for Non-Network Providers.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 10,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Physician/surgeon fees",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 11,
+            "col_index": 0,
+            "rowspan": 3,
+            "colspan": 1,
+            "raw_text": "If you need immediate medical attention",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Emergency room care",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$150/admission",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Covered as In-Network",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Copay waived if admitted inpatient. 0% coinsurance for Emergency Room Physician Fee.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 12,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Emergency medical transportation",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Covered as In-Network",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 13,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Urgent care",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 14,
+            "col_index": 0,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "If you have a hospital stay",
+            "subcells": null
+          },
+          {
+            "row_index": 14,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Facility fee (e.g., hospital room)",
+            "subcells": null
+          },
+          {
+            "row_index": 14,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 14,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 14,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,000 maximum/day for Non-Emergency Admissions to Non-Network Providers.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 15,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Physician/surgeon fees",
+            "subcells": null
+          },
+          {
+            "row_index": 15,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 15,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 15,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 16,
+            "col_index": 0,
+            "rowspan": 3,
+            "colspan": 1,
+            "raw_text": "If you need mental health, behavioral health, or substance abuse services",
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 1,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "Outpatient services",
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Office Visit\n0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Office Visit\n20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Office Visit\n--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 17,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Other Outpatient\n0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 17,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Other Outpatient\n20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 17,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Other Outpatient\n--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 18,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Inpatient services",
+            "subcells": null
+          },
+          {
+            "row_index": 18,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 18,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 18,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,000 maximum/day for Non-Emergency Admissions to Non-Network Providers. 0% coinsurance for Inpatient Physician Fee In-Network Providers. 20% coinsurance for Inpatient Physician Fee Non-Network Providers.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 19,
+            "col_index": 0,
+            "rowspan": 3,
+            "colspan": 1,
+            "raw_text": "If you are pregnant",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Office visits",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 4,
+            "rowspan": 3,
+            "colspan": 1,
+            "raw_text": "$1,000 maximum/day for Non-Emergency Admissions to Non-Network Providers. Maternity care may include tests and services described elsewhere in the SBC (i.e. ultrasound).\n*Coverage includes fertility preservation services, see Fertility Preservation section.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 20,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Childbirth/delivery professional services",
+            "subcells": null
+          },
+          {
+            "row_index": 20,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 20,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 21,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Childbirth/delivery facility services",
+            "subcells": null
+          },
+          {
+            "row_index": 21,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 21,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 22,
+            "col_index": 0,
+            "rowspan": 6,
+            "colspan": 1,
+            "raw_text": "If you need help recovering or have other special health needs",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Home health care",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "100 visits/benefit period.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 23,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Rehabilitation services",
+            "subcells": null
+          },
+          {
+            "row_index": 23,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 23,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 23,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Costs may vary by site of service.\n*See Therapy Services section.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 24,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Habilitation services",
+            "subcells": null
+          },
+          {
+            "row_index": 24,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 24,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 24,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "*See Therapy Services section.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 25,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Skilled nursing care",
+            "subcells": null
+          },
+          {
+            "row_index": 25,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 25,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 25,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "100 days/benefit period for skilled nursing services.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 26,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Durable medical equipment",
+            "subcells": null
+          },
+          {
+            "row_index": 26,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 26,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 26,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "*See Durable Medical Equipment Section",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 27,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Hospice services",
+            "subcells": null
+          },
+          {
+            "row_index": 27,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "0% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 27,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "20% coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 27,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 28,
+            "col_index": 0,
+            "rowspan": 3,
+            "colspan": 1,
+            "raw_text": "If your child needs dental or eye care",
+            "subcells": null
+          },
+          {
+            "row_index": 28,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Children’s eye exam",
+            "subcells": null
+          },
+          {
+            "row_index": 28,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "No charge",
+            "subcells": null
+          },
+          {
+            "row_index": 28,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0 copayment up to plan's Maximum Allowed Amount",
+            "subcells": null
+          },
+          {
+            "row_index": 28,
+            "col_index": 4,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "*See Vision Services section",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 29,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Children’s glasses",
+            "subcells": null
+          },
+          {
+            "row_index": 29,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Not covered",
+            "subcells": null
+          },
+          {
+            "row_index": 29,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Not covered",
+            "subcells": null
+          },
+          {
+            "row_index": 29,
+            "col_index": 4,
+            "rowspan": 2,
+            "colspan": 1,
+            "raw_text": "--------none--------",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 30,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Children’s dental check-up",
+            "subcells": null
+          },
+          {
+            "row_index": 30,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Not covered",
+            "subcells": null
+          },
+          {
+            "row_index": 30,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Not covered",
+            "subcells": null
+          }
+        ]
+      ]
+    },
+    {
+      "table_id": "table_3",
+      "pages": [
+        4
+      ],
+      "title": "Excluded Services & Other Covered Services",
+      "note": "Lists of services excluded or covered with limitations",
+      "column_headers": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Services Your Plan Generally Does NOT Cover (Check your policy or plan document for more information and a list of any other excluded services.)",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Other Covered Services (Limitations may apply to these services. This isn’t a complete list. Please see your plan document.)",
+            "subcells": null
+          }
+        ]
+      ],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "• Cosmetic surgery\n• Dental Check-up\n• Long-term care\n• Weight loss programs\n• Dental care (Adult)\n• Glasses for a child\n• Private-duty nursing\n• Dental care (Pediatric)\n• Infertility treatment\n• Routine foot care unless you have been diagnosed with diabetes",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "• Acupuncture 20 visits/benefit period\n• Hearing aids\n• Bariatric surgery\n• Most coverage provided outside the United States. See www.bcbsglobalcore.com\n• Chiropractic care 30 visits/benefit period\n• Routine eye care (Adult) 1 exam/benefit period.",
+            "subcells": null
+          }
+        ]
+      ]
+    },
+    {
+      "table_id": "table_4",
+      "pages": [
+        6
+      ],
+      "title": "Coverage Examples Cost Sharing",
+      "note": "Cost sharing scenarios for Peg, Joe, and Mia",
+      "column_headers": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Cost Sharing",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Peg is Having a Baby",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Managing Joe’s Type 2 Diabetes",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Mia’s Simple Fracture",
+            "subcells": null
+          }
+        ]
+      ],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Total Example Cost",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$12,700",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$5,600",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$2,800",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 4,
+            "raw_text": "In this example, [Peg/Joe/Mia] would pay:",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 2,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 4,
+            "raw_text": "Cost Sharing",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 3,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Deductibles",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,500",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,500",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,500",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 4,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Copayments",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$10",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$700",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$10",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 5,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Coinsurance",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 6,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 4,
+            "raw_text": "What isn’t covered",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 7,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Limits or exclusions",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$60",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$20",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$0",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 8,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "The total [Peg/Joe/Mia] would pay is",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,570",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$2,220",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "$1,510",
+            "subcells": null
+          }
+        ]
+      ]
+    },
+    {
+      "table_id": "table_5",
+      "pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "title": "Language Access Services",
+      "note": "Formatted as a key-value table for language assistance",
+      "column_headers": [],
+      "rows": [
+        [
+          {
+            "row_index": 0,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Albanian (Shqip):",
+            "subcells": null
+          },
+          {
+            "row_index": 0,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Nëse keni pyetje në lidhje me këtë dokument, keni të drejtë të merrni falas ndihmë dhe informacion në gjuhën tuaj. Për të kontaktuar me një përkthyes, telefononi 1-888-254-2721",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 1,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Amharic (አማርኛ):",
+            "subcells": null
+          },
+          {
+            "row_index": 1,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "ስለዚህ ሰነድ ማንኛውም ጥያቄ ካለዎት በራስዎ ቋንቋ እርዳታ እና ይህን መረጃ በነጻ የማግኘት መብት አለዎት። አስተርጓሚ ለማናገር 1-888-254-2721 ይደውሉ።",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 2,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Arabic (العربية):",
+            "subcells": null
+          },
+          {
+            "row_index": 2,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "إذا كان لديك أي استفسارات بشأن هذا المستند، فيحق لك الحصول على المساعدة والمعلومات بلغتك دون مقابل. للتحدث إلى مترجم، اتصل على 2721-254-888-1 .",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 3,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Armenian (հայերեն).",
+            "subcells": null
+          },
+          {
+            "row_index": 3,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Եթե այս փաստաթղթի հետ կապված հարցեր ունեք, դուք իրավունք ունեք անվճար ստանալ օգնություն և տեղեկատվություն ձեր լեզվով: Թարգմանչի հետ խոսելու համար զանգահարեք հետևյալ հեռախոսահամարով՝ 1-888-254-2721:",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 4,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Bassa (Bǎsɔ́ɔ̀ Wùɖù):",
+            "subcells": null
+          },
+          {
+            "row_index": 4,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "M̀ dyi dyi-diè-ɖè bě bédé bá céè-ɖè nìà kɛ dyí ní, ɔ mò nì dyí-bɛ̀ɖɛ̀ìn-ɖè bé m̀ ké gbo-kpá-kpá kè bɔ̌ kpɔ̃ dé m̀ bídí-wùɖùǔn bó pídyi. Bé m̀ ké wuɖu-zììn-nyɔ̀ ɖò gbo wùɖù kɛ, ɖá 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 5,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Bengali (বাংলা):",
+            "subcells": null
+          },
+          {
+            "row_index": 5,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "যদি এই নথিপত্রের বিষয়ে আপনার কোনো প্রশ্ন থাকে, তাহলে আপনার ভাষায় বিনামূল্য সাহায্য পাওয়ার ও তথ্য পাওয়ার অধিকার আপনার আছে। একজন দোভাষীর সাথে কথা ব্লার জন্য 1-888-254-2721 -তে কল করুন।",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 6,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Burmese (မြန်မာ):",
+            "subcells": null
+          },
+          {
+            "row_index": 6,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "ဤစာရွက်စာတမ်းနှင့် ပတ်သက်၍ သင့်တွင် မေးမြန်းလိုသည်များရှိပါက အချက်အလက်များနှင့် အကူအညီကို အခကြေးငွေ ပေးစရာမလိုပဲ သင့်ဘာသာစကားဖြင့် ရယူပိုင်ခွင့် သင့်တွင် ရှိပါသည်။ စကားပြန် တစ်ဦးနှင့် စကားပြောနိုင်ရန် 1-888-254-2721 သို့ ခေါ်ဆိုပါ။",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 7,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Chinese (中文)：",
+            "subcells": null
+          },
+          {
+            "row_index": 7,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "如果您對本文件有任何疑問，您有權使用您的語言免費獲得協助和資訊。如需與譯員通話，請致電1-888-254-2721。",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 8,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Dinka (Dinka):",
+            "subcells": null
+          },
+          {
+            "row_index": 8,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Na nɔŋ thiëëc në ke de yä thorë, ke yin nɔŋ loŋ bë yi kuony ku wɛr alëu bë gɛɛr yic yin ne thoŋ du ke cin wëu tääuë ke piny. Te kɔr yin ba jam wënë ran ye thok geryic, ke yin col 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 9,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Dutch (Nederlands):",
+            "subcells": null
+          },
+          {
+            "row_index": 9,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Bij vragen over dit document hebt u recht op hulp en informatie in uw taal zonder bijkomende kosten. Als u een tolk wilt spreken, belt u 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 10,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Farsi (فارسی) :",
+            "subcells": null
+          },
+          {
+            "row_index": 10,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "در صورتی که سؤالی پیرامون این سند دارید، این حق را دارید که اطلاعات و کمک را بدون هیچ هزینه ای به زبان مادری تان دریافت کنید. برای گفتگو با یک مترجم شفاهی، با شماره 2721-254-888-1 تماس بگیرید.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 11,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "French (Français) :",
+            "subcells": null
+          },
+          {
+            "row_index": 11,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Si vous avez des questions sur ce document, vous avez la possibilité d’accéder gratuitement à ces informations et à une aide dans votre langue. Pour parler à un interprète, appelez le 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 12,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "German (Deutsch):",
+            "subcells": null
+          },
+          {
+            "row_index": 12,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Wenn Sie Fragen zu diesem Dokument haben, haben Sie Anspruch auf kostenfreie Hilfe und Information in Ihrer Sprache. Um mit einem Dolmetscher zu sprechen, bitte wählen Sie 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 13,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Greek (Ελληνικά)",
+            "subcells": null
+          },
+          {
+            "row_index": 13,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Αν έχετε τυχόν απορίες σχετικά με το παρόν έγγραφο, έχετε το δικαίωμα να λάβετε βοήθεια και πληροφορίες στη γλώσσα σας δωρεάν. Για να μιλήσετε με κάποιον διερμηνέα, τηλεφωνήστε στο 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 14,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Gujarati (ગુજરાતી):",
+            "subcells": null
+          },
+          {
+            "row_index": 14,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "જો આ દસ્તાવેજ અંગે આપને કોઈપણ પ્રશ્નો હોય તો, કોઈપણ ખર્ચ વગર આપની ભાષામાં મદદ અને માહિતી મેળવવાનો તમને અધિકાર છે. દુભાષિયા સાથે વાત કરવા માટે, કોલ કરો 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 15,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Haitian Creole (Kreyòl Ayisyen):",
+            "subcells": null
+          },
+          {
+            "row_index": 15,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Si ou gen nenpòt kesyon sou dokiman sa a, ou gen dwa pou jwenn èd ak enfòmasyon nan lang ou gratis. Pou pale ak yon entèprèt, rele 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 16,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Hindi (हिंदी):",
+            "subcells": null
+          },
+          {
+            "row_index": 16,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "अगर आपके पास इस दस्तावेज़ के बारे में कोई प्रश्न हैं, तो आपको नि:शुल्क अपनी भाषा में मदद और जानकारी प्राप्त करने का अधिकार है। दुभाषिये से बात करने के लिए, कॉल करें-888-254-2721 ।",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 17,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Hmong (White Hmong):",
+            "subcells": null
+          },
+          {
+            "row_index": 17,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Yog tias koj muaj lus nug dab tsi ntsig txog daim ntawv no, koj muaj cai tau txais kev pab thiab lus qhia hais ua koj hom lus yam tsim xam tus nqi. Txhawm rau tham nrog tus neeg txhais lus, hu xov tooj rau 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 18,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Igbo (Igbo):",
+            "subcells": null
+          },
+          {
+            "row_index": 18,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Ọ bụr ụ na ị nwere ajụjụ ọ bụla gbasara akwụkwọ a, ị nwere ikike ịnweta enyemaka na ozi n'asụsụ gị na akwụghị ụgwọ ọ bụla. Ka gị na ọkọwa okwu kwuo okwu, kpọọ 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 19,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Ilokano (Ilokano):",
+            "subcells": null
+          },
+          {
+            "row_index": 19,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Nu addaan ka iti aniaman a saludsod panggep iti daytoy a dokumento, adda karbengam a makaala ti tulong ken impormasyon babaen ti lenguahem nga awan ti bayad na. Tapno makatungtong ti maysa nga tagipatarus, awagan ti 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 20,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Indonesian (Bahasa Indonesia):",
+            "subcells": null
+          },
+          {
+            "row_index": 20,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Jika Anda memiliki pertanyaan mengenai dokumen ini, Anda memiliki hak untuk mendapatkan bantuan dan informasi dalam bahasa Anda tanpa biaya. Untuk berbicara dengan interpreter kami, hubungi 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 21,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Italian (Italiano):",
+            "subcells": null
+          },
+          {
+            "row_index": 21,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "In caso di eventuali domande sul presente documento, ha il diritto di ricevere assistenza e informazioni nella sua lingua senza alcun costo aggiuntivo. Per parlare con un interprete, chiami il numero 1-888-254-2721",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 22,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Japanese (日本語):",
+            "subcells": null
+          },
+          {
+            "row_index": 22,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "この文書についてなにかご不明な点があれば、あなたにはあなたの言語で無料で支援を受け情報を得る権利があります。通訳と話すには 1-888-254-2721 にお電話ください。",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 23,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Khmer (ខ្មែរ):",
+            "subcells": null
+          },
+          {
+            "row_index": 23,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "បើអ្នកមានសំណួរណាមួយទាក់ទងនឹងឯកសារនេះ អ្នកមានសិទ្ធិទទួលបានជំនួយនិងព័ត៌មានជាភាសារបស់អ្នកដោយឥតគិតថ្លៃ។ ដើម្បីនិយាយជាមួយអ្នកបកប្រែ សូមហៅទូរស័ព្ទទៅលេខ 1-888-254-2721 ។",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 24,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Kirundi (Kirundi):",
+            "subcells": null
+          },
+          {
+            "row_index": 24,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Ugize ikibazo ico arico cose kuri iyi nyandiko, ufise uburenganzira bwo kuronka ubufasha mu rurimi rwawe ata giciro. Kugira uvugishe umusemuzi, akura 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 25,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Korean (한국어):",
+            "subcells": null
+          },
+          {
+            "row_index": 25,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "본 문서에 대해 어떠한 문의사항이라도 있을 경우, 귀하에게는 귀하가 사용하는 언어로 무료 도움 및 정보를 얻을 권리가 있습니다. 통역사와 이야기하려면1-888-254-2721 로 문의하십시오.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 26,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Lao (ລາວ):",
+            "subcells": null
+          },
+          {
+            "row_index": 26,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "ຖ້າທ່ານມີຄຳຖາມໃດໆກ່ຽວກັບເອກະສານນີ້, ທ່ານມີສິດໄດ້ຮັບຄວາມຊ່ວຍເຫຼືອ ແລະ ຂໍ້ມູນເປັນພາສາຂອງທ່ານໂດຍບໍ່ເສຍຄ່າ. ເພື່ອໂອ້ລົມກັບນາຍພາສາ, ໃຫ້ໂທຫາ 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 27,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Navajo (Diné):",
+            "subcells": null
+          },
+          {
+            "row_index": 27,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Díí naaltsoos biká'ígíike bína'ídíkidgo ná bohónéedzá dóó bee ahóót'i' t'áá ni nizaad k'ehjí bee nił hodoonih t'áadoo bááh ílínígóó. Ata' halne'ígíí ła' bich'į' hadeesdzih nínízingo kojį' hodíilnih 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 28,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Nepali (नेपाली):",
+            "subcells": null
+          },
+          {
+            "row_index": 28,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "यदि यो कागजातबारे तपाईंसँग केही प्रश्नहरू छन् भने, आफ्नै भाषामा नि:शुल्क सहयोग तथा जानकारी प्राप्त गर्न पाउने हक तपाईंसँग छ। दोभाषेसँग कुरा गर्नका लागि, यहाँ कल गर्नुहोस् 1-888-254-2721",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 29,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Oromo (Oromifaa):",
+            "subcells": null
+          },
+          {
+            "row_index": 29,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Sanadi kanaa wajiin walqabaate gaffi kamiyuu yoo qabduu tanaan, Gargaarsa argachuu fi odeeffanoo afaan ketiin kaffaltii alla argachuuf mirgaa qabdaa. Turjumaana dubaachuuf, 1-888-254-2721 bilbilla.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 30,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Pennsylvania Dutch (Deitsch):",
+            "subcells": null
+          },
+          {
+            "row_index": 30,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Wann du Frooge iwwer selle Document hoscht, du hoscht die Recht um Helfe un Information zu griege in dei Schprooch mitaus Koscht. Um mit en Iwwersetze zu schwetze, ruff 1-888-254-2721 aa.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 31,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Polish (polski):",
+            "subcells": null
+          },
+          {
+            "row_index": 31,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "W przypadku jakichkolwiek pytań związanych z niniejszym dokumentem masz prawo do bezpłatnego uzyskania pomocy oraz informacji w swoim języku. Aby porozmawiać z tłumaczem, zadzwoń pod numer 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 32,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Portuguese (Português):",
+            "subcells": null
+          },
+          {
+            "row_index": 32,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Se tiver quaisquer dúvidas acerca deste documento, tem o direito de solicitar ajuda e informações no seu idioma, sem qualquer custo. Para falar com um intérprete, ligue para 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 33,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Punjabi (ਪੰਜਾਬੀ):",
+            "subcells": null
+          },
+          {
+            "row_index": 33,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "ਜੇ ਤੁਹਾਡੇ ਇਸ ਦਸਤਾਵੇਜ਼ ਬਾਰੇ ਕੋਈ ਸਵਾਲ ਹੁੰਦੇ ਹਨ ਤਾਂ ਤੁਹਾਡੇ ਕੋਲ ਮੁਫ਼ਤ ਵਿੱਚ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਮਦਦ ਅਤੇ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰਨ ਦਾ ਅਧਿਕਾਰ ਹੁੰਦਾ ਹੈ। ਇੱਕ ਦੁਭਾਸ਼ੀਏ ਨਾਲ ਗੱਲ ਕਰਨ ਲਈ1-888-254-2721 ਤੇ ਕਾਲ ਕਰੋ।",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 34,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Romanian (Română):",
+            "subcells": null
+          },
+          {
+            "row_index": 34,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Dacă aveți întrebări referitoare la acest document, aveți dreptul să primiți ajutor și informații in limba dumneavoastră in mod gratuit. Pentru a vă adresa unui interpret, contactați telefonic 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 35,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Russian (Русский):",
+            "subcells": null
+          },
+          {
+            "row_index": 35,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "если у вас есть какие-либо вопросы в отношении данного документа, вы имеете право на бесплатное получение помощи и информации на вашем языке. Чтобы связаться с устным переводчиком, позвоните по тел. 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 36,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Samoan (Samoa):",
+            "subcells": null
+          },
+          {
+            "row_index": 36,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Afai e iai ni ou fesili e uiga i lenei tusi, e iai lou ‘aia e maua se fesoasoani ma faamatalaga i lou lava gagana e aunoa ma se totogi. Ina ia talanoa i se tagata faaliliu, vili 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 37,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Serbian (Srpski):",
+            "subcells": null
+          },
+          {
+            "row_index": 37,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Ukoliko imate bilo kakvih pitanja u vezi sa ovim dokumentom, imate pravo da dobijete pomoć i informacije na vašem jeziku bez ikakvih troškova. Za razgovor sa prevodiocem, pozovite 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 38,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Spanish (Español):",
+            "subcells": null
+          },
+          {
+            "row_index": 38,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Si tiene preguntas acerca de este documento, tiene derecho a recibir ayuda e información en su idioma, sin costos. Para hablar con un intérprete, llame al 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 39,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tagalog (Tagalog):",
+            "subcells": null
+          },
+          {
+            "row_index": 39,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Kung mayroon kang anumang katanungan tungkol sa dokumentong ito, may karapatan kang humingi ng tulong at impormasyon sa iyong wika nang walang bayad. Makipag-usap sa isang tagapagpaliwanag, tawagan ang 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 40,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Thai (ไทย):",
+            "subcells": null
+          },
+          {
+            "row_index": 40,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "หากท่านมีค าถามใดๆ เกี่ยวกับเอกสารฉบับนี้ ท่านมีสิทธิ์ที่จะได้รับความช่วยเหลือและข้อมูลในภาษาของท่านโดยไม่มีค่าใช้จ่าย โดยโทร 1-888-254-2721 เพื่อพูดคุยกับล่าม",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 41,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Ukrainian (Українська):",
+            "subcells": null
+          },
+          {
+            "row_index": 41,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "якщо у вас виникають запитання з приводу цього документа, ви маєте право безкоштовно отримати допомогу й інформацію вашою рідною мовою. Щоб отримати послуги перекладача, зателефонуйте за номером: 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 42,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Urdu (اردو):",
+            "subcells": null
+          },
+          {
+            "row_index": 42,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "اگر اس دستاویز کے بارے میں آپ کا کوئی سوال ہے، تو آپ کو مدد اور اپنی زبان میں مفت معلومات حاصل کرنے کا حق حاصل ہے۔ کسی مترجم سے بات کرنے کے لئے، 1-888-254-2721 پر کال کریں۔",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 43,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Vietnamese (Tiếng Việt):",
+            "subcells": null
+          },
+          {
+            "row_index": 43,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Nếu quý vị có bất kỳ thắc mắc nào về tài liệu này, quý vị có quyền nhận sự trợ giúp và thông tin bằng ngôn ngữ của quý vị hoàn toàn miễn phí. Để trao đổi với một thông dịch viên, hãy gọi 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 44,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Yiddish (אידיש):",
+            "subcells": null
+          },
+          {
+            "row_index": 44,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "אויב איר האט שאלות וועגן דעם דאקומענט, האט איר די רעכט צו באקומען דעם אינפארמאציע אין אייער שפראך אהן קיין פרייז. צו רעדן צו אן איבערזעצער, רופט 1-888-254-2721.",
+            "subcells": null
+          }
+        ],
+        [
+          {
+            "row_index": 45,
+            "col_index": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Yoruba (Yorùbá):",
+            "subcells": null
+          },
+          {
+            "row_index": 45,
+            "col_index": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "raw_text": "Tí o bá ní èyíkéyìí ìbéèrè nípa àkọsílẹ̀ yìí, o ní ẹtọ́ láti gba ìrànwọ́ àti ìwífún ní èdè rẹ lọ́fẹ̀ẹ́. Bá wa ògbùfọ̀ kan sọ̀rọ̀, pe 1-888-254-2721.",
+            "subcells": null
+          }
+        ]
+      ]
+    }
+  ],
+  "extraction_warnings": []
+}
