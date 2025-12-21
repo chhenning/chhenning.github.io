@@ -1,0 +1,54 @@
+site_name: Christian Henning Blog
+site_description: My personal blog
+site_url: https://chhenning.com
+
+theme:
+  name: material
+  features:
+    - navigation.tabs # This enables the top horizontal menu
+  palette:
+      # Dark Mode
+      - scheme: slate
+        toggle:
+          icon: material/weather-sunny
+          name: Dark mode
+        primary: green
+        accent: deep purple
+
+      # Light Mode
+      - scheme: default
+        toggle:
+          icon: material/weather-night
+          name: Light mode
+        primary: blue
+        accent: deep orange
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog: 
+    - blog/index.md
+  - Tags: tags.md
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - blog:
+      archive: true
+      archive_date_format: MMMM yyyy
+  - tags
