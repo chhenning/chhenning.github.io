@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome to my site!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Here I will present various projects and blog post regarding understanding data. 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Please see the [about page](about.md) for further details.
