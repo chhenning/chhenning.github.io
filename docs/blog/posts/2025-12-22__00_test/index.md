@@ -23,7 +23,7 @@ A playground to explore various features and workflows for writing blog posts.
 
 <!-- more -->
 
-1. Each post is it's own folder with a naming pattern `YYYY-MM-DD_TEXT`
+1. Each post is it's own folder with a naming pattern `YYYY-MM-DD_NUM_TEXT`
 
 2. All assets (like images) per post should go into the same folder.
 
@@ -31,6 +31,12 @@ A playground to explore various features and workflows for writing blog posts.
 /// caption
 A Mountain
 ///
+
+## Links
+
+I like to create a new tab when a user clicks on a link.
+
+[Click here to open Google](https://google.com){: target="_blank" }
 
 ## A table with a caption
 

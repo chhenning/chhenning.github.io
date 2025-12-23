@@ -17,7 +17,7 @@ tags:
 
 Python makes it very easy to create simple simulations to simulate complex processes. There is usually a math solution but that can be hard to remember.
 
-In the spirit of [Raymond Hettinger's](https://github.com/rhettinger) [Modern Python LiveLessons: Big Ideas and Little Code in Python](https://www.oreilly.com/videos/modern-python-livelessons/9780134743400/) course. We will explore some basic simulation.
+In the spirit of [Raymond Hettinger's](https://github.com/rhettinger){: target="_blank" } [Modern Python LiveLessons: Big Ideas and Little Code in Python](https://www.oreilly.com/videos/modern-python-livelessons/9780134743400/){: target="_blank" } course. We will explore some basic simulation.
 
 <!-- more -->
 

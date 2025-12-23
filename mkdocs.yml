@@ -55,3 +55,8 @@ plugins:
       archive: true
       archive_date_format: MMMM yyyy
   - tags
+
+copyright: >
+  Copyright &copy; 2025 Christian Henning. 
+  <br>
+  Questions? Insights? Project Ideas? <a href="mailto:diedatenschleuder@gmail.com">Email Me!</a>

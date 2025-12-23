@@ -1,12 +1,15 @@
 # Hi!
 
-My name is `Christian Henning` and I live with my family in Rye Brook, NY.
+My name is `Christian` and I live with my family in Rye Brook, NY.
 
 My main interest is what I call `Understanding Data`, hence the name of this blog.
 
 The core fields I'm exploring are `AI` and `Machine Learning`. 
 
 I like to write simulations to test various algorithms and visualizations.
+
+Email me for any questions `diedatenschleuder AT gmail.com`
+
 
 ## My favorite tools
 
