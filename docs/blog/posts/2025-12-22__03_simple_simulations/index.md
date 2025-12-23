@@ -37,7 +37,7 @@ Counter(choices(['black', 'red', 'green'], weights=[18,18,2], k=1000))
 The hit counts are below. Red was hit 476 times (~48%). The two greens were only hit 53 times (5.3%) which makes sense since 2/38 = 5.2%
 
 ```py
-Counter({'red': 476, 'black': 471, 'green': 53})
+Counter({'red': 476, 'black': 472, 'green': 52})
 ```
 
 Now, how often do we hit a streak of any color? The following code does just that:
