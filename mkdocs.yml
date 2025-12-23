@@ -1,4 +1,4 @@
-site_name: Christian Henning Blog
+site_name: Christian Henning - Understanding Data - Blog
 site_description: My personal blog
 site_url: https://chhenning.com
 
@@ -46,6 +46,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  
+  - pymdownx.blocks.caption
 
 plugins:
   - search
