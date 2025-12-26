@@ -44,5 +44,5 @@
         "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
         "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
     ],
-    "cSpell.ignoreWords": ["matplotlib", "Hettinger"]
+    "cSpell.ignoreWords": ["matplotlib", "Hettinger", "numpy", "pd", "printoptions", "randn", "randint", "dataframe"]
 }

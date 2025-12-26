@@ -16,6 +16,7 @@ tags:
 links:
   - matplotlib cheat sheet: https://matplotlib.org/cheatsheets/
   - Nicolas P. Rougier matplotlib tutorial: https://github.com/rougier/matplotlib-tutorial
+  - Aurélien Géron matplotlib cheat sheet: https://github.com/ageron/handson-mlp/blob/main/tools_matplotlib.ipynb
   - matplotlib plot types: https://matplotlib.org/stable/plot_types/index
   - Scientific Visualization - Python + Matplotlib book: https://github.com/rougier/scientific-visualization-book 
 ---
