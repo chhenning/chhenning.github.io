@@ -3,10 +3,10 @@ date:
   created: 2025-12-23
   updated: 2025-12-24
 
-draft: True
+draft: False
 
 categories:
-  - Dataframes
+  - Data Analysis
 
 tags:
   - python
