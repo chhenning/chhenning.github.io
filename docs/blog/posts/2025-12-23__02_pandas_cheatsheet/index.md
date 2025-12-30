@@ -1,7 +1,7 @@
 ---
 date:
   created: 2025-12-23
-  updated: 2025-12-24
+  updated: 2025-12-29
 
 draft: False
 
@@ -196,6 +196,27 @@ data = [
 
 # Create the pandas DataFrame
 df = pd.DataFrame(data, columns=["Category", "Name", "Marks"])
+```
+
+### NaN
+
+```py
+# True or False
+df["my_column"].hasnans
+
+# count the rows where the value is nan
+df["my_column"].isna().sum()
+
+# count the non-nan rows
+df["my_column"].notna().sum()
+
+# fill the na values with something
+median = df["my_column"].median()
+df["my_column"] = df["my_column"].fillna(median)
+
+# for each row, checks if any column is NaN
+null_rows_idx = df.isna().any(axis=1)
+df.loc[null_rows_idx].head(20)
 ```
 
 ### loc, iloc and slices
@@ -989,10 +1010,35 @@ LA         90   110
 1  NYC    Wine     80
 2   LA    Beer     90
 3   LA    Wine    110
-
 ```
 
+### Common ML operations
+
+#### Get all numerical attributes
+
+```py
+df_numerical = df.select_dtypes(include=[np.number])
+```
+
+
 ## Series
+
+### From dict
+
+```py
+# states will be index
+d = {'Ohio' : 35000 , 'Texas' : 71000 , 'Oregon' : 16000 , 'Utah' : 5000 }
+s = pd.Series(d)
+```
+
+### Time Series with data
+
+```py
+# 12 hrs
+dates = pd.date_range('2016/10/29 5:30pm', periods=12, freq='h')
+temperatures = [gauss(mu=20, sigma=6) for i in range(12)]
+pd.Series(data=temperatures, index=dates)
+```
 
 ### Reindex
 
@@ -1014,6 +1060,16 @@ full_index = pd.date_range("2025-01-01", "2025-01-06", freq="D")
 
 ts = ts.reindex(full_index, fill_value=0)
 print(ts)
+```
+
+### Horizontal stacking
+
+```py
+# horizontal stacking
+a = pd.Series(range(0,8,1))
+b = pd.Series(range(9,17,1))
+c = pd.Series(range(18,26,1))
+pd.concat([a,b,c],axis=1, keys=['a','b','c'])
 ```
 
 ### MultiIndex

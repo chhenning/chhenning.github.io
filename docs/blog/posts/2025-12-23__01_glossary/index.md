@@ -15,7 +15,7 @@ tags:
 
 My attempt to provide an explanation to all the various AI/ML terms, so that I can understand them...
 
-## R
+<!-- more -->
 
 ## Multivariate Regression problem
 
