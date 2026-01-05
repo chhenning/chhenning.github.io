@@ -1,7 +1,7 @@
 ---
 date:
   created: 2025-12-23
-  updated: 2025-12-29
+  updated: 2026-01-02
 
 draft: False
 
@@ -198,6 +198,27 @@ data = [
 df = pd.DataFrame(data, columns=["Category", "Name", "Marks"])
 ```
 
+### Series vs Dataframe
+
+Libraries like `sklearn` want dataframes as input even if the dataframe only has one column.
+
+```py
+df = pd.DataFrame({
+    "product": ["Beer", "Wine", "Whiskey"],
+    "price": [6.5, 9.0, 12.0]
+})
+
+# Series
+s = df['price']
+
+# Dataframe
+d = df[['price']]
+
+# Series -> Dataframe
+d2 = s.to_frame()
+```
+
+
 ### NaN
 
 ```py
@@ -305,6 +326,9 @@ df = pd.DataFrame({
 # False -> First occurrence
 # True  -> All other occurrences
 df.duplicated()
+
+# get all the unique rows
+df.drop_duplicates(keep="last") # first
 
 # get the rows that are duplicated
 df[df.duplicated()]

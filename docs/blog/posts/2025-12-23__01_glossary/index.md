@@ -17,9 +17,17 @@ My attempt to provide an explanation to all the various AI/ML terms, so that I c
 
 <!-- more -->
 
+## Multimodal Distribution
+
+A distribution with two or more peaks, called `modes`.
+
 ## Multivariate Regression problem
 
 predict multiple values
+
+## Power Law Distribution
+
+A distribution with a very long tail.
 
 ## Regularization
 
