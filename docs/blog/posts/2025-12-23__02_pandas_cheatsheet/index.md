@@ -1,7 +1,7 @@
 ---
 date:
   created: 2025-12-23
-  updated: 2026-01-02
+  updated: 2026-01-06
 
 draft: False
 
@@ -499,6 +499,36 @@ df.drop(drop_columns, inplace=True, axis=1)
 df.info()
 ```
 
+#### dropna
+
+Drop every row that has a NaN somewhere:
+
+```py
+import pandas as pd
+
+df = pd.DataFrame({
+    "vehicle_id": ["A", "B", "C", "D"],
+    "speed": [55, None, 70, None],
+    "timestamp": ["2024-01-01", "2024-01-02", None, "2024-01-04"]
+})
+
+df.dropna()
+
+#   vehicle_id  speed   timestamp
+# 0          A   55.0  2024-01-01
+```
+
+Sometimes NaN is ok for some columns. So the next example only drop rows for a subset of columns:
+
+```py
+df.dropna(subset=["speed"])
+
+#   vehicle_id  speed   timestamp
+# 0          A   55.0  2024-01-01
+# 2          C   70.0        None
+```
+
+
 ### Convert Columns
 
 ```py
@@ -769,10 +799,51 @@ df_filtered = df[df["price"] >= 10].copy()
 df_dropped = df.drop(df[df["category"] == "Beer"].index)
 ```
 
+### Transform
+
+Use case: `Give me a per-group value aligned back to each row.`
+
+Below is a small example showing how to remove outlier rows by filtering out speeds that fall outside the 1st–99th percentile range.
+```py
+import pandas as pd
+
+data = [
+    {"vehicle_id": "V001", "speed": 32},
+    {"vehicle_id": "V001", "speed": 35},
+    {"vehicle_id": "V001", "speed": 34},
+    {"vehicle_id": "V001", "speed": 120},   # extreme high
+    {"vehicle_id": "V001", "speed": 5},     # extreme low
+
+    {"vehicle_id": "V002", "speed": 55},
+    {"vehicle_id": "V002", "speed": 58},
+    {"vehicle_id": "V002", "speed": 60},
+    {"vehicle_id": "V002", "speed": 62},
+    {"vehicle_id": "V002", "speed": 140},   # extreme high
+
+    {"vehicle_id": "V003", "speed": 25},
+    {"vehicle_id": "V003", "speed": 27},
+    {"vehicle_id": "V003", "speed": 26},
+    {"vehicle_id": "V003", "speed": 28},
+    {"vehicle_id": "V003", "speed": 1},     # extreme low
+]
+
+df = pd.DataFrame(data)
+
+lower = df.groupby('vehicle_id')['speed'].transform(lambda x: x.quantile(0.01))
+upper = df.groupby('vehicle_id')['speed'].transform(lambda x: x.quantile(0.99))
+
+no_outliers_df = df[(df['speed'] > lower) & (df['speed'] < upper)]
+```
+
+
 ### Apply
 
-create new data from dataframe as a new column(s). This can be pretty slow sometimes. Have a look here
+Use case: `Give me a custom result per group.`
+
+This can be pretty slow sometimes. Have a look here
 to speed it up: [pandarallel](https://github.com/nalepae/pandarallel).
+
+The following example applies some tax rates to items and then creates three new columns.
 
 ```py
 df = pd.DataFrame({
@@ -1036,14 +1107,87 @@ LA         90   110
 3   LA    Wine    110
 ```
 
-### Common ML operations
+### Rolling Windows
 
-#### Get all numerical attributes
+Sometimes you want to look back 5 mins (or any other time span) and do some calculations.
+
+Always make sure that the data is sorted!
 
 ```py
-df_numerical = df.select_dtypes(include=[np.number])
+import pandas as pd
+
+data = [
+    {"vehicle_id": "V1", "event_ts": "2024-01-01 08:00:00", "speed": 35.0},
+    {"vehicle_id": "V1", "event_ts": "2024-01-01 08:02:00", "speed": 38.5},
+    {"vehicle_id": "V1", "event_ts": "2024-01-01 08:04:30", "speed": 36.2},
+    {"vehicle_id": "V1", "event_ts": "2024-01-01 08:07:00", "speed": 40.1},
+    {"vehicle_id": "V1", "event_ts": "2024-01-01 08:10:00", "speed": 42.0},
+
+    {"vehicle_id": "V2", "event_ts": "2024-01-01 08:01:00", "speed": 28.0},
+    {"vehicle_id": "V2", "event_ts": "2024-01-01 08:03:00", "speed": 30.5},
+    {"vehicle_id": "V2", "event_ts": "2024-01-01 08:06:00", "speed": 29.8},
+    {"vehicle_id": "V2", "event_ts": "2024-01-01 08:09:30", "speed": 31.2},
+    {"vehicle_id": "V2", "event_ts": "2024-01-01 08:12:00", "speed": 33.0},
+]
+
+df = pd.DataFrame(data)
+df["event_ts"] = pd.to_datetime(df["event_ts"])
+df = df.sort_values(by=["vehicle_id", "event_ts"])
+
+result = (
+    df.set_index(keys="event_ts")
+    .groupby(by="vehicle_id")["speed"]
+    .rolling(pd.Timedelta(minutes=5))
+    .mean()
+    .reset_index(name="speed_5min_avg")
+)
+
+# vehicle_id	event_ts	speed_5min_avg
+# 0	V1	2024-01-01 08:00:00	35.000000
+# 1	V1	2024-01-01 08:02:00	36.750000
+# 2	V1	2024-01-01 08:04:30	36.566667
+# 3	V1	2024-01-01 08:07:00	38.150000
+# 4	V1	2024-01-01 08:10:00	41.050000
+# 5	V2	2024-01-01 08:01:00	28.000000
+# 6	V2	2024-01-01 08:03:00	29.250000
+# 7	V2	2024-01-01 08:06:00	30.150000
+# 8	V2	2024-01-01 08:09:30	30.500000
+# 9	V2	2024-01-01 08:12:00	32.100000
 ```
 
+### Accessing previous or future values
+
+Use pandas's `shift()` to access a previous row is essential in time series calculation.
+
+```py
+import pandas as pd
+
+df = pd.DataFrame({
+    "vehicle_id": ["A", "A", "A", "B", "B"],
+    "event_ts": pd.to_datetime([
+        "2024-01-01 08:00",
+        "2024-01-01 08:01",
+        "2024-01-01 08:02",
+        "2024-01-01 09:00",
+        "2024-01-01 09:01",
+    ]),
+    "speed": [30, 32, 31, 50, 55]
+})
+
+df = df.sort_values(["vehicle_id", "event_ts"])
+
+df["prev_speed"] = df.groupby("vehicle_id")["speed"].shift(1)
+df["speed_change"] = df["speed"] - df["prev_speed"]
+```
+
+```
+  vehicle_id            event_ts  speed  prev_speed  speed_change
+0          A 2024-01-01 08:00:00     30         NaN           NaN
+1          A 2024-01-01 08:01:00     32        30.0           2.0
+2          A 2024-01-01 08:02:00     31        32.0          -1.0
+3          B 2024-01-01 09:00:00     50         NaN           NaN
+4          B 2024-01-01 09:01:00     55        50.0           5.0
+```
 
 ## Series
 
@@ -1104,6 +1248,16 @@ index = pd.MultiIndex.from_tuples(
 )
 s = pd.Series(np.arange(1.0, 5.0), index=index)
 ```
+
+
+## Common ML operations
+
+### Get all numerical attributes
+
+```py
+df_numerical = df.select_dtypes(include=[np.number])
+```
+
 
 ## Bonus
 
