@@ -3,12 +3,14 @@ date:
   created: 2026-01-02
   updated: 2026-01-05
 
-draft: True
+draft: False
 
 tags:
   - nlp
   - money stuff
   - gmail export
+  - pandas
+  - matplotlib
 
 links:
   - Money Stuff: https://www.bloomberg.com/account/newsletters/money-stuff
@@ -18,22 +20,30 @@ links:
 
 # Money Stuff - Part 1
 
-This is part 1 of my investigation of the [Money Stuff](https://www.bloomberg.com/account/newsletters/money-stuff){: target="_blank" } newsletter by [Matt Levine](https://en.wikipedia.org/wiki/Matt_Levine_(columnist)){: target="_blank" }.
+This is part 1 of my deep dive into the [Money Stuff](https://www.bloomberg.com/account/newsletters/money-stuff){: target="_blank" } newsletter by [Matt Levine](https://en.wikipedia.org/wiki/Matt_Levine_(columnist)){: target="_blank" }.
 
 Part 1 just downloads the emails from my inbox and does a simple parsing into a pandas dataframe.
 
 <!-- more -->
 
-The Money Stuff newsletter is a newsletter about current financial STUFF (as Matt like to say.) He is very good at laying out financial news into easy
+`Money Stuff` is a newsletter about current financial STUFF (as Matt like to say.) He is very good at laying out financial news and concepts into easy
 digestible pieces for non-financial people like me. It is very entertaining! I can also highly recommend the accompanying [Podcast](https://www.bloomberg.com/podcasts/series/money-stuff){: target="_blank" }.
 
-There is a lot of information in each of the newsletter and so I thought I can make this into an interested series of blog posts.
+There is a lot of information in each of the newsletter and so I thought I can make this into an interesting series of blog posts.
 
-In the first one I will lay out how to build the database and then scrape the information.
+## Blog Series Plan
+
+- Create a data model and use `sqlite` as the database. (inc. `FTS`)
+- Use `Gemini CLI` to create queries to investigate
+- Run `NER (Named Entity Recognition)` on the dataset using `Spacy`
+- tbd
+
+There will be a repo before the second part goes up.
 
 ## Export Emails with Google Takeout
 
-I receive the newsletter via email and label
+I receive the newsletter by email and label the messages so they’re collected in a single folder. Google provides a way to download this folder
+as follows:
 
 1. Go to [Google Takeout](https://takeout.google.com/)
 
@@ -51,7 +61,7 @@ I receive the newsletter via email and label
 
 7. Click on `Create Export`.
 
-Once you kicked off the process you should receive an email after a few minutes (or hours). But at some point you will get an email with link to
+Once you kicked off the process you should receive an email after a few minutes (or hours). Though at some point you will get an email with a link to
 download the export as a zip file.
 
 
@@ -112,7 +122,6 @@ Next is to load the data into a panda's dataframe to examine what we have and to
 import pandas as pd
 
 df = pd.DataFrame(newsletters, columns=["subject", "sent_datetime"])
-print(len(df))
 ```
 
 Turns out there 831 newsletters.
@@ -178,10 +187,10 @@ Number of Newsletter by Year.
 ///
 
 
-There should be many more newsletters from previous years. So, you have them in your email inbox I would be very delighted to get my hands on them.
+There should be many more newsletters from previous years. So, if you have them in your email inbox I would be very delighted to get my hands on them.
 Please message me via `diedatenschleuder` @ `gmail.com`
 
-## Part 2
+## Upcoming Part 2
 
 In the next part we will parse the data into a data model and load the data into a sqlite database. We will also enable FTS (full text search).
 
