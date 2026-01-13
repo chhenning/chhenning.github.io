@@ -26,6 +26,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Resume: resume.md
   - About: about.md
   - Blog: 
     - blog/index.md
@@ -57,6 +58,6 @@ plugins:
   - tags
 
 copyright: >
-  Copyright &copy; 2025 Christian Henning. 
+  Copyright &copy; 2026 Christian Henning. 
   <br>
   Questions? Insights? Project Ideas? <a href="mailto:diedatenschleuder@gmail.com">Email Me!</a>
