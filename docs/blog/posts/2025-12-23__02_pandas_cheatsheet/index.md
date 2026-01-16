@@ -1,7 +1,7 @@
 ---
 date:
   created: 2025-12-23
-  updated: 2026-01-06
+  updated: 2026-01-16
 
 draft: False
 
@@ -1259,7 +1259,7 @@ df_numerical = df.select_dtypes(include=[np.number])
 ```
 
 
-## Bonus
+## Use Cases
 
 ### Download tables from wikipedia
 
@@ -1289,4 +1289,59 @@ tables = pd.read_html(html, flavor="bs4")
 print("Num Tables:", len(tables))
 for i, t in enumerate(tables):
     print(i, t.shape)
+```
+
+### Merge Metadata with Data
+
+```py
+import pandas as pd
+
+# Meta information about the measurement columns in the values' dataframe
+df_meta = pd.DataFrame({
+    "column_name": ["speed", "rpm", "temp"],
+    "display_name": ["Vehicle Speed", "Engine RPM", "Coolant Temp"],
+    "unit": ["mph", "rpm", "°C"],
+    "sensor_type": ["motion", "engine", "engine"],
+})
+
+# the actual values. Each column (speed, rpm, and temp) is explained in meta dataframe
+df_values = pd.DataFrame({
+    "timestamp": pd.to_datetime(["2026-01-01 08:00:00", "2026-01-01 08:01:00"]),
+    "speed": [55, 57],
+    "rpm": [2200, 2300],
+    "temp": [90, 91],
+})
+
+# 1. create "long" from the values
+df_long = df_values.melt(
+    id_vars=["timestamp"],
+    var_name="column_name",
+    value_name="value",
+)
+
+# 2. merge metadata onto each measurement ro
+df_long = df_long.merge(df_meta, on="column_name", how="left")
+
+# df_long now has: timestamp, column_name, value, display_name, unit, sensor_type
+
+# 3. pivot back to wide using metadata as the "header"
+# Choose which metadata fields you want as your multi-row header:
+header_levels = ["display_name", "unit"]  # or ["sensor_type", "display_name", "unit"]
+
+df_wide = (
+    df_long
+    .pivot(index="timestamp", columns=header_levels, values="value")
+    .sort_index(axis=1)
+    .reset_index()
+)
+
+df_wide
+
+```
+
+```
+display_name           timestamp Coolant Temp Engine RPM Vehicle Speed
+unit                                       °C        rpm           mph
+0            2026-01-01 08:00:00           90       2200            55
+1            2026-01-01 08:01:00           91       2300            57
 ```
