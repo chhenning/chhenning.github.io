@@ -26,6 +26,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Captain's Log: log.md
   - Resume: resume.md
   - About: about.md
   - Blog: 

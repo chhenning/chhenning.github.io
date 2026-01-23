@@ -2,8 +2,16 @@
 
 Here I will present various projects and [blog posts](blog/index.md) regarding understanding data (Machine Learning).
 
-I like to model different processes using machine learning or simulations. A simple example is a coin flip. There is a clear mathematical model, but I can also simulate the process with just a single line of Python.
+I also run my `Captain's Log` here to show things I learn and do. 
 
-Please see the [about page](about.md) to learn more about me.
+I'm very fascinated by all facest of machine learning, simulations, and algorithms in general. 
 
+A few pages you might be interested in:
 
+- [resume](resume.md)
+
+- [about page](about.md) to learn more about me and how to connect.
+
+- [blog](./blog/index.md)
+
+- [captain's log](log.md) where I list my daily TILs (today I learned).

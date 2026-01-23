@@ -1,9 +1,9 @@
 # Christian Henning's CV
 
 - Location: Rye Brook, NY
-- [Website](https://chhenning.com/)
-- [LinkedIn](https://linkedin.com/in/chhenning)
-- [GitHub](https://github.com/chhenning)
+- Website: [chhenning.com](https://chhenning.com/)
+- LinkedIn: [chhenning](https://linkedin.com/in/chhenning)
+- GitHub: [chhenning](https://github.com/chhenning)
 
 # Experience
 
@@ -99,4 +99,4 @@ End-to-end RAG pipeline and analysis engine for financial newsletters using LLMs
 
 # Education
 
-## **University of Rostock**, Master of Science (M.Sc.) in Computer Science -- Rostock, Germany, Sept 1997 – May 2004
+## **University of Rostock**, Master of Science (M.Sc.) in Computer Science -- Rostock, Germany
