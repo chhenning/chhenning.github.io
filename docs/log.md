@@ -1,6 +1,6 @@
-# 2026-01-23
+## 2026-01-23
 
-## postgres_fdw
+### postgres_fdw
 
 tags: postgres, aws, rds
 
@@ -38,15 +38,15 @@ SERVER remote_pg
 OPTIONS (schema_name 'public', table_name 'orders');
 ```
 
-# 2026-01-22
+## 2026-01-22
 
-## Dynamic Programming Tutorial
+### Dynamic Programming Tutorial
 
 tags: dynamic programming, recursion
 
 It's always fun to revisit dynamic programming. This [tutorial](https://www.youtube.com/watch?v=66hDgWottdA) is very well made.
 
-## How to build your own local AI stack on Linux with llama.cpp, llama-swap, LibreChat and more
+### How to build your own local AI stack on Linux with llama.cpp, llama-swap, LibreChat and more
 
 tags: llama.cpp, llm, qwen, nvidia, cuda, article, huggingface, librechat, llama-swap
 
@@ -62,21 +62,21 @@ llama.cpp does not work with the `safetensors` format, it works with the `GGUF` 
 
 Projects that convert to gguf:
 
-[Unsloth](https://huggingface.co/unsloth/models)
-[Bartowski](https://huggingface.co/bartowski)
-[TheBloke](https://huggingface.co/TheBloke)
+- [Unsloth](https://huggingface.co/unsloth/models)
+- [Bartowski](https://huggingface.co/bartowski)
+- [TheBloke](https://huggingface.co/TheBloke)
 
 Avoid downloading models in FP32 or FP16 precision, as these unquantized formats require a lot of memory, especially for very large models.
 
 Instead, download quantized versions of the model in the GGUF format, because they use less memory. A great starting point is the Q8_K quantization level.
 
-## Quantization Types
+### Quantization Types
 
 tags: huggingface, llm
 
-https://huggingface.co/docs/hub/gguf#quantization-types
+[huggingface's quantization-types](https://huggingface.co/docs/hub/gguf#quantization-types)
 
-## OCR with layout
+### OCR with layout
 
 tags: ocr, layout, docling, doctags
 
@@ -84,15 +84,15 @@ tags: ocr, layout, docling, doctags
 
 [docling document](https://docling-project.github.io/docling/concepts/docling_document/)
 
-# 2026-01-21
+## 2026-01-21
 
-## Unconventional PostgreSQL Optimizations  
+### Unconventional PostgreSQL Optimizations  
 
 tags: postgres, sql
 
 [Unconventional PostgreSQL Optimizations](https://news.ycombinator.com/item?id=46692116)
 
-## Magick
+### Magick
 
 ```sh
 brew install imagemagick
@@ -101,9 +101,9 @@ magick ~/Downloads/image.jpeg -quality 50 ~/Downloads/image_small.jpeg
 
 ```
 
-# 2026-01-20
+## 2026-01-20
 
-## ESPN Unofficial Public API
+### ESPN Unofficial Public API
 
 tags: sports, api, espn
 
@@ -111,7 +111,7 @@ tags: sports, api, espn
 
 [public ESPN API](https://github.com/pseudo-r/Public-ESPN-API)
 
-## Backtesting.py
+### Backtesting.py
 
 tags: python, finance, trading, simulation, pandas
 
@@ -120,26 +120,111 @@ Backtest trading strategies in Python. See [backtesting.py](https://kernc.github
 Also, [pandas_market_calendars](https://github.com/rsheftel/pandas_market_calendars)
 
 
-# 2026-01-17
+## 2026-01-17
 
-## Docker Cheat Sheet
+### Docker Cheat Sheet
 
 tags: docker, cheat sheet
 
 [docker cheat sheet](https://docker.how/)
 
 
-# 2026-01-15
+## 2026-01-15
 
-## Why DuckDB is my first choice for data processing
+### Why DuckDB is my first choice for data processing
 
 tags: duckdb, hackernews
 
 [Why DuckDB is my first choice for data processing ](https://news.ycombinator.com/item?id=46645176)
 
-## Ask HN: How are you doing RAG locally?
+### Ask HN: How are you doing RAG locally?
 
 tags: RAG, hackernews, embedding
 
 [Ask HN: How are you doing RAG locally?](https://news.ycombinator.com/item?id=46616529)
+
+
+## 2026-01-14
+
+### turn off type checking
+
+tags: vscode, python, pylance
+
+During development the constant type checking will result in red squiggles inside the code. I find that really annoying and distraction.
+
+In your `.vscode/settings.json` just add the next line.
+
+```json
+"python.analysis.typeCheckingMode": "off"
+```
+
+## 2026-01-10
+
+### OpenCode
+
+tags: LLM, agent, vibe coding, todo
+
+The open source AI coding agent.
+
+[OpenCode](https://opencode.ai/)
+[github](https://github.com/anomalyco/opencode)
+
+### Machine Learning, Statistical Inference and Induction
+
+tags: ml, article, todo
+
+[Machine Learning, Statistical Inference and Induction](https://web.archive.org/web/20250815161703/http://www.bactra.org/notebooks/learning-inference-induction.html)
+
+### The Q, K, V Matrices
+
+tags: todo, transformer, attention
+
+[The Q, K, V Matrices](https://news.ycombinator.com/item?id=46523887)
+
+### Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.
+
+tags: llm, search, todo, sql, fts
+
+[Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.](https://news.ycombinator.com/item?id=46442245)
+
+### Raymond Hettinger - Modern solvers: Problems well-defined are problems solved - PyCon 2019
+
+tags: youtube, solvers, search, rl, python, tutorial
+
+[video](https://www.youtube.com/watch?v=_GP9OpZPUYc)
+[doc](https://rhettinger.github.io/)
+
+
+## 2026-01-05
+
+### Struddel
+
+tags: music, melody, struddel
+
+Twinkle Twinkle Little Star
+
+```
+note(`
+<c c g g a a g@2
+ f f e e d d c@2
+ g g f f e e d@2
+ g g f f e e d@2
+ c c g g a a g@2
+  f f e e d d c@2>*4
+`).sound('piano')
+```
+
+### OpenML
+
+tags: dataset, ml, sklearn
+
+[openml](https://www.openml.org/)
+
+[fetch_openml](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_openml.html)
+
+### Vehicle Dataset
+
+tags: dataset, kaggle, ml
+
+[dataset](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data)
 
