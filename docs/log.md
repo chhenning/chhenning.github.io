@@ -1,3 +1,24 @@
+## 2026-01-27
+
+### .sqliterc
+
+tags: sqlite, dot file
+
+The default config for sqlite's cli tool are not very good when displaying data in the terminal. But sqlite does support a config file
+called `.sqliterc` in your home folder.
+
+Here is mine:
+
+```
+.headers on
+.mode column
+.nullvalue NULL
+.prompt "sqlite> "
+.timer on
+```
+
+
+
 ## 2026-01-23
 
 ### postgres_fdw
@@ -37,6 +58,17 @@ CREATE FOREIGN TABLE foreign_orders (
 SERVER remote_pg
 OPTIONS (schema_name 'public', table_name 'orders');
 ```
+
+### A mental model for binary classifier confusion matrix
+
+```
+                    ACTUAL
+               Positive    Negative
+PREDICTED
+Positive        TP           FP
+Negative        FN           TN
+```
+
 
 ## 2026-01-22
 
@@ -228,3 +260,117 @@ tags: dataset, kaggle, ml
 
 [dataset](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data)
 
+
+## 20260101
+
+### Comtrade
+
+tags: python, comtrade
+
+[Python Comtrade](https://github.com/dparrini/python-comtrade)
+
+[pyComtrade](https://github.com/miguelmoreto/pycomtrade)
+
+## 20251231
+
+### postgres extensions
+
+tags: postgres, vector db, pgvector, FTS
+
+[pgvectorscale](https://github.com/timescale/pgvectorscale)
+[pg_textsearch](https://github.com/timescale/pg_textsearch)
+
+
+## 2025-12-29
+
+### create a password
+
+tags: cli, sh
+
+```sh
+openssl rand -base64 24
+```
+
+### Add markdown to Google Document
+
+tags: markdown, Google Doc
+
+Inside a Google document click on Tool->Preferences. There `Enable Markdown`. Now you can `Paste From Markdown`.
+
+## 2025-12-23
+
+### blog links
+
+tags: blog, markdown
+
+I have been searching for a good blog solution for awhile and finally I have found it.
+
+[Material for mkdocs](https://squidfunk.github.io/mkdocs-material/reference/)
+[github workflow](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
+[pymdown extension](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/caption/)
+
+### Instant database clones with PostgreSQL 18
+
+tags: postgresql, sql
+
+[blog](https://boringsql.com/posts/instant-database-clones/)
+[hackernews](https://news.ycombinator.com/item?id=46363360)
+
+
+## 2025-12-22
+
+### color-science
+
+tags: python, color
+
+[repo](https://github.com/colour-science/colour)
+
+## 2025-12-21
+
+### Hands-On ML with Scikit-Learn and PyTorch
+
+tags: python, ml, sklearn, torch, pandas, matplotlib, book
+
+There is a new edition of my favorite ML book. This time with pytorch!
+
+[repo](https://github.com/ageron/handson-mlp/tree/main)
+
+[numpy cheatsheet](https://github.com/ageron/handson-mlp/blob/main/tools_numpy.ipynb)
+[pandas cheatsheet](https://github.com/ageron/handson-mlp/blob/main/tools_pandas.ipynb)
+[matplotlib cheatsheet](https://github.com/ageron/handson-mlp/blob/main/tools_matplotlib.ipynb)
+
+## Leap 71
+
+tags: company, space, rocket, computational engineering
+
+[video](https://youtu.be/6Xx1GXjRbMk?si=ZAu1NdyTnzdl_TA4)
+[company](https://leap71.com/)
+[Lin Kayser](https://www.linkedin.com/in/linkayser/)
+
+## ResumeCV
+
+tags: resume, yaml, pdf
+
+Great module to create good looking resumes. The resume data is a yaml file. And that is easy to be fed into a LLM!
+
+[doc](https://docs.rendercv.com/)
+
+
+## 2025-12-20
+
+### Jekyll
+
+tags: website, blog, github, site generator
+
+(jekyll)[https://jekyllrb.com/]
+
+### Material for MkDocs
+
+tags: site generator, python, blog, website
+
+[repo](https://github.com/squidfunk/mkdocs-material/)
+
+[tutorial](https://jameswillett.dev/getting-started-with-material-for-mkdocs)
+
+[blog example](https://github.com/mkdocs-material/create-blog)
+[How To Build and Deploy a Stunning Blog for FREE using Material for MkDocs](https://www.youtube.com/watch?v=pPEUhfTZswc&list=PLw_jGKXm9lIaJCD8YClu6cAz1TcFdJdIf&index=9)
