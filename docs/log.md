@@ -17,14 +17,11 @@ Here is mine:
 .timer on
 ```
 
-
-
 ## 2026-01-23
 
 ### postgres_fdw
 
 tags: postgres, aws, rds
-
 
 I have been using Postgres' [dblink_connect](https://www.postgresql.org/docs/current/contrib-dblink-connect.html) for the longest time.
 
@@ -69,7 +66,6 @@ Positive        TP           FP
 Negative        FN           TN
 ```
 
-
 ## 2026-01-22
 
 ### Dynamic Programming Tutorial
@@ -84,9 +80,7 @@ tags: llama.cpp, llm, qwen, nvidia, cuda, article, huggingface, librechat, llama
 
 [link](https://imadsaddik.com/blogs/local-ai-stack-on-linux)
 
-
 https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507/tree/main
-
 
 llama.cpp does not work with the `safetensors` format, it works with the `GGUF` format. This format is optimized for quick loading and saving of models, and running models efficiently on consumer hardware.
 
@@ -118,7 +112,7 @@ tags: ocr, layout, docling, doctags
 
 ## 2026-01-21
 
-### Unconventional PostgreSQL Optimizations  
+### Unconventional PostgreSQL Optimizations
 
 tags: postgres, sql
 
@@ -151,7 +145,6 @@ Backtest trading strategies in Python. See [backtesting.py](https://kernc.github
 
 Also, [pandas_market_calendars](https://github.com/rsheftel/pandas_market_calendars)
 
-
 ## 2026-01-17
 
 ### Docker Cheat Sheet
@@ -159,7 +152,6 @@ Also, [pandas_market_calendars](https://github.com/rsheftel/pandas_market_calend
 tags: docker, cheat sheet
 
 [docker cheat sheet](https://docker.how/)
-
 
 ## 2026-01-15
 
@@ -174,7 +166,6 @@ tags: duckdb, hackernews
 tags: RAG, hackernews, embedding
 
 [Ask HN: How are you doing RAG locally?](https://news.ycombinator.com/item?id=46616529)
-
 
 ## 2026-01-14
 
@@ -226,7 +217,6 @@ tags: youtube, solvers, search, rl, python, tutorial
 [video](https://www.youtube.com/watch?v=_GP9OpZPUYc)
 [doc](https://rhettinger.github.io/)
 
-
 ## 2026-01-05
 
 ### Struddel
@@ -260,7 +250,6 @@ tags: dataset, kaggle, ml
 
 [dataset](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data)
 
-
 ## 20260101
 
 ### Comtrade
@@ -279,7 +268,6 @@ tags: postgres, vector db, pgvector, FTS
 
 [pgvectorscale](https://github.com/timescale/pgvectorscale)
 [pg_textsearch](https://github.com/timescale/pg_textsearch)
-
 
 ## 2025-12-29
 
@@ -315,7 +303,6 @@ tags: postgresql, sql
 
 [blog](https://boringsql.com/posts/instant-database-clones/)
 [hackernews](https://news.ycombinator.com/item?id=46363360)
-
 
 ## 2025-12-22
 
@@ -355,7 +342,6 @@ Great module to create good looking resumes. The resume data is a yaml file. And
 
 [doc](https://docs.rendercv.com/)
 
-
 ## 2025-12-20
 
 ### Jekyll
@@ -374,3 +360,215 @@ tags: site generator, python, blog, website
 
 [blog example](https://github.com/mkdocs-material/create-blog)
 [How To Build and Deploy a Stunning Blog for FREE using Material for MkDocs](https://www.youtube.com/watch?v=pPEUhfTZswc&list=PLw_jGKXm9lIaJCD8YClu6cAz1TcFdJdIf&index=9)
+
+
+## 2025-12-19
+
+### Self hosting challenges and how to limit scraper bots
+
+tags: scraper, bot, blog, vps, self hosting, hackernews
+
+This article prompted me to do some research of how to deal with excessive scraper bots when self hosting an app or a blog.
+
+[I got hacked, my server started mining Monero this morning.](https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/)
+
+[Anubis](https://github.com/TecharoHQ/anubis) is a Web AI Firewall Utility that weighs the soul of your connection using one or more challenges in order to protect upstream resources from scraper bots. Also see [this on hackernews](https://news.ycombinator.com/item?id=46294144).
+
+#### Server-Side Rate Limiting (Web Server)
+
+Asking Gemini for a good solutions to avoid scraper bots -> [gemini chat](https://aistudio.google.com/prompts/1ppxjZccFQnDSDKu9vaDKSpe7LeFUBeV3)
+
+You can configure your web server to strictly limit how fast any single IP can download pages. This makes scraping painfully slow for bots, effectively discouraging them.
+
+If you use `Nginx`:
+Add this to your nginx.conf (http block):
+
+```
+limit_req_zone $binary_remote_addr zone=one:10m rate=1r/s;
+```
+
+```
+location / {
+    limit_req zone=one burst=10 nodelay;
+    # ... rest of config
+}
+```
+
+This limits every IP to roughly 1 request per second. Real users won't notice, but scrapers trying to fetch 100 pages at once will get rejected (Error 503).
+
+#### "Hard" Limit via Custom Script (Advanced)
+
+If you absolutely must ensure the server shuts down after a certain bandwidth limit (e.g., 1 TB), you have to script it yourself.
+
+**Option A: Bandwidth Speed Limit (tc or wondershaper)**
+
+You can cap your server's uplink speed. For example, if you cap your upload speed to 10 Mbps, the maximum theoretical outbound traffic you can generate in a month is about 3.2 TB, making it physically impossible to exceed the 20 TB limit.
+
+**Option B: Auto-Shutdown Script**
+
+Install a tool like `vnstat` to monitor traffic, and write a simple cron script that checks usage every hour.
+
+Add it to crontab to run hourly.
+
+```sh
+#!/bin/bash
+# Get current monthly TX (transmit/egress) in GiB
+USAGE=$(vnstat --oneline | cut -d';' -f10 | cut -d' ' -f1)
+
+# Set limit to 1000 GiB (1 TB)
+LIMIT=1000
+
+# Compare (using integer math)
+if (( $(echo "$USAGE > $LIMIT" | bc -l) )); then
+    echo "Limit exceeded. Shutting down network interface."
+    # Choose one:
+    # ip link set eth0 down   # Kills network
+    # poweroff                # Shuts down server completely
+fi
+```
+
+### htmx
+
+tags: htmx, javascript, html, webapp, hackernews
+
+[Please just try HTMX](https://news.ycombinator.com/item?id=46312973)
+
+A quote:
+
+```
+Hey, I created htmx and while I appreciate the publicity, I’m not a huge fan of these types of hyperbolic articles. There are lots of different ways to build web apps with their own strengths and weaknesses. I try to assess htmx’s strengths and weaknesses here:
+https://htmx.org/essays/when-to-use-hypermedia/
+
+Also, please try unpoly:
+
+It’s another excellent hypermedia oriented library
+
+Edit: the article is actually not nearly as unreasonable as I thought based on the just-f*king-use template. Still prefer a chill vibe for htmx though.
+```
+
+See: [unpoly](https://github.com/unpoly/unpoly)
+
+### unidecode
+
+tags: ascii, unicode, string, python
+
+[unidecode](https://github.com/avian2/unidecode) is a great lib for a common problem. How to make a reasonable ascii string out of unicode? 
+
+For example:
+
+- `unidecode('kožušček')` -> `'kozuscek'`
+- `unidecode('30 \U0001d5c4\U0001d5c6/\U0001d5c1')` -> `'30 km/h'`
+
+
+## 2025-12-18
+
+### Pydantic AI
+
+tags: pydantic, Python, AI, Agents
+
+[repo](https://github.com/pydantic/pydantic-ai)
+
+### Langchain course
+
+tags: langchain, python, AI, Agents
+
+[course](https://academy.langchain.com/courses/foundation-introduction-to-langchain-python)
+
+### Postgresql distinct
+
+tags: postgres, sql
+
+Great overview of how to use the `distinct` keyword in PostgreSQL. 
+
+[https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql](https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql)
+
+A few code examples:
+
+```sql
+CREATE TEMP TABLE tmp_employee (
+    id         INT,
+    name       TEXT,
+    department TEXT,
+    salary     INT
+)
+;
+
+INSERT INTO tmp_employee (id, name, department, salary) VALUES
+(30, 'Sara Roberts',     'Accounting',               13845),
+(4,  'Benjamin Brown',   'Business Development',      7386),
+(3,  'Carolyn Carter',   'Engineering',               8366),
+(20, 'Janet Hall',       'Human Resources',            2826),
+(14, 'Chris Phillips',   'Legal',                     3706),
+(10, 'James Cunningham', 'Legal',                     3706),
+(11, 'Richard Bradley',  'Marketing',                11272),
+(2,  'Richard Fox',      'Product Management',       13449),
+(25, 'Evelyn Rodriguez', 'Research and Development', 10628),
+(17, 'Benjamin Carter',  'Sales',                     6197),
+(24, 'Jessica Elliott',  'Services',                 14542),
+(7,  'Bonnie Robertson', 'Support',                  12674),
+(8,  'Jean Bailey',      'Training',                 13230)
+;
+```
+
+```sql
+-- get all unique departments
+SELECT DISTINCT department FROM tmp_employee;
+```
+
+#### DISTINCT ON
+
+```sql
+-- get the highest earners per department
+-- use the employee id as the tiebreaker
+SELECT DISTINCT ON (department)
+    *
+FROM
+    tmp_employee
+ORDER BY
+    department,
+    salary DESC,
+    id ASC;
+;
+```
+
+#### DISTINCT FROM
+
+`DISTINCT FROM` treats NULL values as real value and so comparing will get a boolean answers.
+
+```sql
+WITH old_data AS (
+    SELECT 1 AS emp_id, 'Engineer' AS title UNION ALL
+    SELECT 2, NULL UNION ALL
+    SELECT 3, 'Manager'
+),
+new_data AS (
+    SELECT 1 AS emp_id, 'Engineer' AS title UNION ALL
+    SELECT 2, 'Analyst' UNION ALL
+    SELECT 3, NULL
+)
+SELECT
+    o.emp_id,
+    o.title AS old_title,
+    n.title AS new_title,
+    o.title = n.title AS equals_operator,       -- this will break when one side is NULL
+    o.title IS DISTINCT FROM n.title AS changed -- this works even when one side is NULL
+FROM old_data o
+JOIN new_data n USING (emp_id);
+```
+
+#### ARRAY_AGG
+
+Bonus!
+
+Aggregate all values into a json.
+
+```sql
+SELECT
+    department,
+    ARRAY_AGG(name) AS employees
+FROM
+    tmp_employee
+GROUP BY
+    department
+;
+```
