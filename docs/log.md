@@ -1,3 +1,17 @@
+
+## 2026-02-05
+
+### docling
+
+tags: todo, ocr, ibm, docling, pdf
+
+Docling converts messy documents into structured data and simplifies downstream document and AI processing by detecting tables, formulas, reading order, OCR, and much more.
+
+It's github repo has over 52K stars!
+
+[How to use cli and python](https://simonwillison.net/2024/Nov/3/docling/)
+
+
 ## 2026-01-27
 
 ### .sqliterc
