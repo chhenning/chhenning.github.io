@@ -1,4 +1,29 @@
 
+## 2026-02-07
+
+### Debugging Python in vscode
+
+Hopefully for the last time in my live this is the correct `launch.json` for debugging a Python script inside vscode.
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ]
+}
+```
+
+
 ## 2026-02-05
 
 ### docling
