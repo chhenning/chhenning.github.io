@@ -1,4 +1,62 @@
 
+## 2026-02-13
+
+## 
+
+tags: go, slime mold, visualization
+
+Running a `go` tool.
+
+```sh
+brew install go
+```
+
+```sh
+git clone git@github.com:fogleman/physarum.git
+cd physarum
+
+go run cmd/physarum/main.go
+```
+
+Error: `cmd/physarum/main.go:8:2: no required module provides package github.com/fogleman/physarum/pkg/physarum: go.mod file not found in current directory or any parent directory; see 'go help modules'
+
+
+```
+go mod init physarum
+go mod tidy
+go run ./cmd/physarum
+```
+
+Now it works.
+
+Turns out this tool does not do a realtime simulation but creates beautiful images.
+
+
+## 2026-02-12
+
+### Simulating Physarum polycephalum slime mold
+
+tags: generative algorithms, visualization, slime mold
+
+Simulating Physarum polycephalum slime mold generates very cool pictures. See below.
+
+[Physarum Simulation](https://www.michaelfogleman.com/projects/physarum/)
+[Physarum transport model](https://cargocollective.com/sagejenson/physarum)
+[Coding Adventure: Ant and Slime Simulations](https://www.youtube.com/watch?v=X-iSQQgOd1A)
+
+## 2026-02-08
+
+### 72M Points of Interest
+
+tags: venues, poi, duckdb
+
+Interesting blog post about a dataset with 72M Points of Interest (POI) including their website.
+
+Not only does Mark present the data but he also shows how to examine it using `duckdb`.
+
+[72M Points of Interest](https://tech.marksblogg.com/overture-places-pois.html)
+
+
 ## 2026-02-07
 
 ### Debugging Python in vscode
