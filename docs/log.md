@@ -1,7 +1,16 @@
 
+## 2026-02-14
+
+## physarum-step-by-step
+
+Finished my first project with Claude Code. Amazing tool to be honest. I learned so much!
+
+[physarum-step-by-step](https://github.com/chhenning/physarum-step-by-step)
+
+
 ## 2026-02-13
 
-## 
+## physarum
 
 tags: go, slime mold, visualization
 
