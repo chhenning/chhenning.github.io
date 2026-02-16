@@ -1,12 +1,25 @@
+## 2026-02-16
+
+### Blocking Youtube shorts
+
+tags: youtube, ublock, chrome
+
+I'm using Chrome on macos with [ublock origin lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en) extension.
+
+Copy and paste the [rules](https://raw.githubusercontent.com/i5heu/ublock-hide-yt-shorts/master/list.txt) into `Custom Filters` text box. Now reload youtube and
+the shorts should disappear.
+
+See:
+
+[uBlock filter list to hide all YouTube Shorts](https://github.com/i5heu/ublock-hide-yt-shorts/)
 
 ## 2026-02-14
 
-## physarum-step-by-step
+### physarum-step-by-step
 
 Finished my first project with Claude Code. Amazing tool to be honest. I learned so much!
 
 [physarum-step-by-step](https://github.com/chhenning/physarum-step-by-step)
-
 
 ## 2026-02-13
 
@@ -29,7 +42,6 @@ go run cmd/physarum/main.go
 
 Error: `cmd/physarum/main.go:8:2: no required module provides package github.com/fogleman/physarum/pkg/physarum: go.mod file not found in current directory or any parent directory; see 'go help modules'
 
-
 ```
 go mod init physarum
 go mod tidy
@@ -39,7 +51,6 @@ go run ./cmd/physarum
 Now it works.
 
 Turns out this tool does not do a realtime simulation but creates beautiful images.
-
 
 ## 2026-02-12
 
@@ -65,7 +76,6 @@ Not only does Mark present the data but he also shows how to examine it using `d
 
 [72M Points of Interest](https://tech.marksblogg.com/overture-places-pois.html)
 
-
 ## 2026-02-07
 
 ### Debugging Python in vscode
@@ -90,7 +100,6 @@ Hopefully for the last time in my live this is the correct `launch.json` for deb
 }
 ```
 
-
 ## 2026-02-05
 
 ### docling
@@ -102,7 +111,6 @@ Docling converts messy documents into structured data and simplifies downstream 
 It's github repo has over 52K stars!
 
 [How to use cli and python](https://simonwillison.net/2024/Nov/3/docling/)
-
 
 ## 2026-01-27
 
@@ -467,7 +475,6 @@ tags: site generator, python, blog, website
 [blog example](https://github.com/mkdocs-material/create-blog)
 [How To Build and Deploy a Stunning Blog for FREE using Material for MkDocs](https://www.youtube.com/watch?v=pPEUhfTZswc&list=PLw_jGKXm9lIaJCD8YClu6cAz1TcFdJdIf&index=9)
 
-
 ## 2025-12-19
 
 ### Self hosting challenges and how to limit scraper bots
@@ -558,13 +565,12 @@ See: [unpoly](https://github.com/unpoly/unpoly)
 
 tags: ascii, unicode, string, python
 
-[unidecode](https://github.com/avian2/unidecode) is a great lib for a common problem. How to make a reasonable ascii string out of unicode? 
+[unidecode](https://github.com/avian2/unidecode) is a great lib for a common problem. How to make a reasonable ascii string out of unicode?
 
 For example:
 
 - `unidecode('kožušček')` -> `'kozuscek'`
 - `unidecode('30 \U0001d5c4\U0001d5c6/\U0001d5c1')` -> `'30 km/h'`
-
 
 ## 2025-12-18
 
@@ -584,7 +590,7 @@ tags: langchain, python, AI, Agents
 
 tags: postgres, sql
 
-Great overview of how to use the `distinct` keyword in PostgreSQL. 
+Great overview of how to use the `distinct` keyword in PostgreSQL.
 
 [https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql](https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql)
 
