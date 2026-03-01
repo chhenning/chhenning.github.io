@@ -1,3 +1,17 @@
+## 2026-02-28
+
+### opencode
+
+tags: qwen3, llama.cpp, opencode, hackernews
+
+Here is nice little tutorial on how to setup opencode with a local model.
+
+[OpenCode + Llama.cpp Setup Guide](https://gist.github.com/alexpotato/5b76989c24593962898294038b5b835b)
+
+I found this guide on the `hackernews` article:
+
+[Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers](https://news.ycombinator.com/item?id=47199781)
+
 ## 2026-02-16
 
 ### Blocking Youtube shorts
