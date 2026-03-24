@@ -1,3 +1,28 @@
+
+## 2026-03-24
+
+tags: cli
+
+I'm very paranoid deleting folders with `rm -rf`. How about safeguarding it?
+
+Add this to `~/.zshrc`:
+
+```sh
+rm() {
+    echo "Will delete:"
+    for arg in "$@"; do
+        [[ "$arg" != -* ]] && echo "  $(realpath "$arg" 2>/dev/null || echo "$arg")"
+    done
+    echo ""
+    read -q "REPLY?Proceed? (y/n) " || { echo "\nAborted."; return 1; }
+    echo ""
+    command rm "$@"
+}
+compdef rm=rm
+```
+
+The last part `compdef rm=rm` makes sure the tab completion still works.
+
 ## 2026-02-28
 
 ### opencode
