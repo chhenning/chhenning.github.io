@@ -23,6 +23,8 @@ compdef rm=rm
 
 The last part `compdef rm=rm` makes sure the tab completion still works.
 
+Now every time you try to `rm -rf FOLDER` the shell will ask if you want to delete the folder using the full path.
+
 ## 2026-02-28
 
 ### opencode
