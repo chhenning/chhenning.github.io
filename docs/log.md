@@ -1,4 +1,51 @@
 
+## 2026-04-07
+
+tags: cli, mcp, bm25, vector search, git, regex
+
+### qmd
+
+[github repo](https://github.com/tobi/qmd)
+
+An on-device search engine for everything you need to remember. Index your markdown notes, meeting transcripts, documentation, and knowledge bases. Search with keywords or natural language. Ideal for your agentic flows.
+
+QMD combines BM25 full-text search, vector semantic search, and LLM re-ranking—all running locally via node-llama-cpp with GGUF models.
+
+### LLM Wiki
+
+A pattern for building personal knowledge bases using LLMs.
+
+This is an idea file, it is designed to be copy pasted to your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.). Its goal is to communicate the high level idea, but your agent will build out the specifics in collaboration with you.
+
+see: 
+
+- [github gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [x](https://x.com/karpathy/status/2039805659525644595)
+
+### git worktrees
+
+```sh
+# !!! One branch per worktree
+# !!! Don’t delete folders manually
+
+# inside the repo
+git worktree add -b feature-branch ../my-project-feature
+
+# list worktrees
+git worktree list
+
+
+git worktree remove ../my-project-feature
+# if git complains
+git worktree prune
+```
+
+### negative keyword pattern
+
+used in Claude Code:
+
+[github](https://github.com/chatgptprojects/clear-code/blob/642c7f944bbe5f7e57c05d756ab7fa7c9c5035cc/src/utils/userPromptKeywords.ts#L8)
+
 ## 2026-03-24
 
 tags: cli
@@ -24,6 +71,23 @@ compdef rm=rm
 The last part `compdef rm=rm` makes sure the tab completion still works.
 
 Now every time you try to `rm -rf FOLDER` the shell will ask if you want to delete the folder using the full path.
+
+## 2026-04-06
+
+tags: spacex, ipo, gemma, llm
+
+### Spacex IPO
+
+very interesting insight into the IPO and why it might not be a good idea to invest...
+
+[hackernews](https://news.ycombinator.com/item?id=47613231)
+
+### Gemma 4 - How to Run Locally
+
+Run Google’s new Gemma 4 models locally, including E2B, E4B, 26B A4B, and 31B.
+
+[link](https://unsloth.ai/docs/models/gemma-4)
+
 
 ## 2026-02-28
 
