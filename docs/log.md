@@ -1,7 +1,32 @@
+## 2026-04-11
+
+tags: postgres, job queue, IaC, knowledge graph
+
+### OpenTofu
+
+OpenTofu is a reliable, flexible, community-driven infrastructure as code tool under the Linux Foundation's stewardship. It serves as a drop-in replacement for Terraform, preserving your existing workflows and configurations.
+
+[OpenTofu](https://opentofu.org/)
+[OpenTofu Github](https://github.com/opentofu/opentofu)
+
+### Graphile Worker
+
+A high performance job queue for PostgreSQL, written in Node.js
+
+[Graphile Worker](https://worker.graphile.org/)
+[github repo](https://github.com/graphile/worker)
+
+### atomicapp
+
+Self-hosted, semantically-connected personal knowledge base
+
+[atomicapp](https://atomicapp.ai/)
+[atomicapp github](https://github.com/kenforthewin/atomic)
+
 
 ## 2026-04-07
 
-tags: cli, mcp, bm25, vector search, git, regex
+tags: cli, mcp, bm25, vector search, git, regex, knowledge graph
 
 ### qmd
 
