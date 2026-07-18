@@ -1,3 +1,15 @@
+## 2026-07-18
+
+tags: sql
+
+### Prequel - PRQL
+
+PRQL is a modern language for transforming data.
+
+[PRQL](https://prql-lang.org/)
+
+
+
 ## 2026-04-11
 
 tags: postgres, job queue, IaC, knowledge graph
