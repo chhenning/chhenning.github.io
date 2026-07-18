@@ -1,0 +1,3998 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="My personal blog">
+      
+      
+      
+        <link rel="canonical" href="https://chhenning.com/log/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../resume/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Captain's Log - Christian Henning - Understanding Data - Blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2026-07-18" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Christian Henning - Understanding Data - Blog" class="md-header__button md-logo" aria-label="Christian Henning - Understanding Data - Blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Christian Henning - Understanding Data - Blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Captain's Log
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Captain's Log
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../resume/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resume
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../blog/" class="md-tabs__link">
+          
+  
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Christian Henning - Understanding Data - Blog" class="md-nav__button md-logo" aria-label="Christian Henning - Understanding Data - Blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Christian Henning - Understanding Data - Blog
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain's Log
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain's Log
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026-07-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-07-18
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-07-18">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prequel-prql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prequel - PRQL
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-04-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-04-11
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-04-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opentofu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenTofu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graphile-worker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Graphile Worker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atomicapp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        atomicapp
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-04-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-04-07
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-04-07">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        qmd
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llm-wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LLM Wiki
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-worktrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        git worktrees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-keyword-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        negative keyword pattern
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-03-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-03-24
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-04-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-04-06
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-04-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spacex-ipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spacex IPO
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gemma-4-how-to-run-locally" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gemma 4 - How to Run Locally
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-28
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-28">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opencode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        opencode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-16
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-16">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blocking-youtube-shorts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blocking Youtube shorts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-14
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#physarum-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        physarum-step-by-step
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-13
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physarum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        physarum
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-12
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simulating-physarum-polycephalum-slime-mold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simulating Physarum polycephalum slime mold
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-08
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#72m-points-of-interest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        72M Points of Interest
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-07
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-07">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debugging-python-in-vscode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging Python in vscode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-05
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-05">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        docling
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-27
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-27">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sqliterc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        .sqliterc
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-23
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-23">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#postgres_fdw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        postgres_fdw
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-mental-model-for-binary-classifier-confusion-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A mental model for binary classifier confusion matrix
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-22
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-22">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-programming-tutorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Programming Tutorial
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-build-your-own-local-ai-stack-on-linux-with-llamacpp-llama-swap-librechat-and-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to build your own local AI stack on Linux with llama.cpp, llama-swap, LibreChat and more
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantization-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantization Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ocr-with-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCR with layout
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-21
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unconventional-postgresql-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unconventional PostgreSQL Optimizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magick
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-20
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#espn-unofficial-public-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ESPN Unofficial Public API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backtestingpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backtesting.py
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-17
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-17">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docker Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-15
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-15">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-duckdb-is-my-first-choice-for-data-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why DuckDB is my first choice for data processing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ask-hn-how-are-you-doing-rag-locally" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ask HN: How are you doing RAG locally?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-14
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-off-type-checking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        turn off type checking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-10
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-10">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opencode_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenCode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-learning-statistical-inference-and-induction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Learning, Statistical Inference and Induction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-q-k-v-matrices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Q, K, V Matrices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-claude-code-to-query-600-gb-indexes-over-hacker-news-arxiv-etc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raymond-hettinger-modern-solvers-problems-well-defined-are-problems-solved-pycon-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Raymond Hettinger - Modern solvers: Problems well-defined are problems solved - PyCon 2019
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-05
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-05">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#struddel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struddel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenML
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vehicle Dataset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20260101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20260101
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20260101">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comtrade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comtrade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20251231" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20251231
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20251231">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#postgres-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        postgres extensions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-29
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-29">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        create a password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-markdown-to-google-document" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add markdown to Google Document
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-23
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-23">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blog-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        blog links
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instant-database-clones-with-postgresql-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instant database clones with PostgreSQL 18
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-22
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-22">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#color-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        color-science
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-21
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hands-on-ml-with-scikit-learn-and-pytorch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hands-On ML with Scikit-Learn and PyTorch
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leap-71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leap 71
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumecv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ResumeCV
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-20
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jekyll" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jekyll
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-for-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material for MkDocs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-19
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-hosting-challenges-and-how-to-limit-scraper-bots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self hosting challenges and how to limit scraper bots
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Self hosting challenges and how to limit scraper bots">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server-side-rate-limiting-web-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server-Side Rate Limiting (Web Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hard-limit-via-custom-script-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Hard" Limit via Custom Script (Advanced)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#htmx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        htmx
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidecode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        unidecode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-18
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-18">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pydantic-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pydantic AI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langchain-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Langchain course
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql-distinct" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Postgresql distinct
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Postgresql distinct">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distinct-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DISTINCT ON
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distinct-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DISTINCT FROM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#array_agg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ARRAY_AGG
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resume/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resume
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Blog
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archive
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Archive
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/archive/2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    January 2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/archive/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    December 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Categories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/data-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/simulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Simulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/category/visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026-07-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-07-18
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-07-18">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prequel-prql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prequel - PRQL
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-04-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-04-11
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-04-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opentofu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenTofu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graphile-worker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Graphile Worker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atomicapp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        atomicapp
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-04-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-04-07
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-04-07">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        qmd
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llm-wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LLM Wiki
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-worktrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        git worktrees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-keyword-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        negative keyword pattern
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-03-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-03-24
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-04-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-04-06
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-04-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spacex-ipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spacex IPO
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gemma-4-how-to-run-locally" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gemma 4 - How to Run Locally
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-28
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-28">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opencode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        opencode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-16
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-16">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blocking-youtube-shorts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blocking Youtube shorts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-14
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#physarum-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        physarum-step-by-step
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-13
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physarum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        physarum
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-12
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simulating-physarum-polycephalum-slime-mold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simulating Physarum polycephalum slime mold
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-08
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#72m-points-of-interest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        72M Points of Interest
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-07
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-07">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debugging-python-in-vscode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging Python in vscode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-05
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-02-05">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        docling
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-27
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-27">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sqliterc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        .sqliterc
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-23
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-23">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#postgres_fdw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        postgres_fdw
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-mental-model-for-binary-classifier-confusion-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A mental model for binary classifier confusion matrix
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-22
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-22">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-programming-tutorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Programming Tutorial
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-build-your-own-local-ai-stack-on-linux-with-llamacpp-llama-swap-librechat-and-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to build your own local AI stack on Linux with llama.cpp, llama-swap, LibreChat and more
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantization-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantization Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ocr-with-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OCR with layout
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-21
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unconventional-postgresql-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unconventional PostgreSQL Optimizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magick
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-20
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#espn-unofficial-public-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ESPN Unofficial Public API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backtestingpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backtesting.py
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-17
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-17">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docker Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-15
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-15">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-duckdb-is-my-first-choice-for-data-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why DuckDB is my first choice for data processing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ask-hn-how-are-you-doing-rag-locally" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ask HN: How are you doing RAG locally?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-14
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-off-type-checking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        turn off type checking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-10
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-10">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opencode_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenCode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-learning-statistical-inference-and-induction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Learning, Statistical Inference and Induction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-q-k-v-matrices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Q, K, V Matrices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-claude-code-to-query-600-gb-indexes-over-hacker-news-arxiv-etc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raymond-hettinger-modern-solvers-problems-well-defined-are-problems-solved-pycon-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Raymond Hettinger - Modern solvers: Problems well-defined are problems solved - PyCon 2019
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-01-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-05
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2026-01-05">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#struddel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struddel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenML
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vehicle Dataset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20260101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20260101
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20260101">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comtrade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comtrade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20251231" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20251231
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20251231">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#postgres-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        postgres extensions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-29
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-29">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        create a password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-markdown-to-google-document" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add markdown to Google Document
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-23
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-23">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blog-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        blog links
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instant-database-clones-with-postgresql-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instant database clones with PostgreSQL 18
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-22
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-22">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#color-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        color-science
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-21
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hands-on-ml-with-scikit-learn-and-pytorch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hands-On ML with Scikit-Learn and PyTorch
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leap-71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leap 71
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumecv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ResumeCV
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-20
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jekyll" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jekyll
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-for-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material for MkDocs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-19
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-hosting-challenges-and-how-to-limit-scraper-bots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self hosting challenges and how to limit scraper bots
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Self hosting challenges and how to limit scraper bots">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server-side-rate-limiting-web-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server-Side Rate Limiting (Web Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hard-limit-via-custom-script-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Hard" Limit via Custom Script (Advanced)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#htmx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        htmx
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidecode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        unidecode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025-12-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-12-18
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2025-12-18">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pydantic-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pydantic AI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langchain-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Langchain course
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql-distinct" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Postgresql distinct
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Postgresql distinct">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distinct-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DISTINCT ON
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distinct-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DISTINCT FROM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#array_agg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ARRAY_AGG
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Captain's Log</h1>
+
+<h2 id="2026-07-18">2026-07-18</h2>
+<p>tags: sql</p>
+<h3 id="prequel-prql">Prequel - PRQL</h3>
+<p>PRQL is a modern language for transforming data.</p>
+<p><a href="https://prql-lang.org/">PRQL</a></p>
+<h2 id="2026-04-11">2026-04-11</h2>
+<p>tags: postgres, job queue, IaC, knowledge graph</p>
+<h3 id="opentofu">OpenTofu</h3>
+<p>OpenTofu is a reliable, flexible, community-driven infrastructure as code tool under the Linux Foundation's stewardship. It serves as a drop-in replacement for Terraform, preserving your existing workflows and configurations.</p>
+<p><a href="https://opentofu.org/">OpenTofu</a>
+<a href="https://github.com/opentofu/opentofu">OpenTofu Github</a></p>
+<h3 id="graphile-worker">Graphile Worker</h3>
+<p>A high performance job queue for PostgreSQL, written in Node.js</p>
+<p><a href="https://worker.graphile.org/">Graphile Worker</a>
+<a href="https://github.com/graphile/worker">github repo</a></p>
+<h3 id="atomicapp">atomicapp</h3>
+<p>Self-hosted, semantically-connected personal knowledge base</p>
+<p><a href="https://atomicapp.ai/">atomicapp</a>
+<a href="https://github.com/kenforthewin/atomic">atomicapp github</a></p>
+<h2 id="2026-04-07">2026-04-07</h2>
+<p>tags: cli, mcp, bm25, vector search, git, regex, knowledge graph</p>
+<h3 id="qmd">qmd</h3>
+<p><a href="https://github.com/tobi/qmd">github repo</a></p>
+<p>An on-device search engine for everything you need to remember. Index your markdown notes, meeting transcripts, documentation, and knowledge bases. Search with keywords or natural language. Ideal for your agentic flows.</p>
+<p>QMD combines BM25 full-text search, vector semantic search, and LLM re-ranking—all running locally via node-llama-cpp with GGUF models.</p>
+<h3 id="llm-wiki">LLM Wiki</h3>
+<p>A pattern for building personal knowledge bases using LLMs.</p>
+<p>This is an idea file, it is designed to be copy pasted to your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.). Its goal is to communicate the high level idea, but your agent will build out the specifics in collaboration with you.</p>
+<p>see: </p>
+<ul>
+<li><a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f">github gist</a></li>
+<li><a href="https://x.com/karpathy/status/2039805659525644595">x</a></li>
+</ul>
+<h3 id="git-worktrees">git worktrees</h3>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># !!! One branch per worktree</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1"># !!! Don’t delete folders manually</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># inside the repo</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>git<span class="w"> </span>worktree<span class="w"> </span>add<span class="w"> </span>-b<span class="w"> </span>feature-branch<span class="w"> </span>../my-project-feature
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1"># list worktrees</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>git<span class="w"> </span>worktree<span class="w"> </span>list
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>git<span class="w"> </span>worktree<span class="w"> </span>remove<span class="w"> </span>../my-project-feature
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="c1"># if git complains</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>git<span class="w"> </span>worktree<span class="w"> </span>prune
+</span></code></pre></div>
+<h3 id="negative-keyword-pattern">negative keyword pattern</h3>
+<p>used in Claude Code:</p>
+<p><a href="https://github.com/chatgptprojects/clear-code/blob/642c7f944bbe5f7e57c05d756ab7fa7c9c5035cc/src/utils/userPromptKeywords.ts#L8">github</a></p>
+<h2 id="2026-03-24">2026-03-24</h2>
+<p>tags: cli</p>
+<p>I'm very paranoid deleting folders with <code>rm -rf</code>. How about safeguarding it?</p>
+<p>Add this to <code>~/.zshrc</code>:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>rm<span class="o">()</span><span class="w"> </span><span class="o">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Will delete:&quot;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span>arg<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$@</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="o">[[</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$arg</span><span class="s2">&quot;</span><span class="w"> </span>!<span class="o">=</span><span class="w"> </span>-*<span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;  </span><span class="k">$(</span>realpath<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$arg</span><span class="s2">&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$arg</span><span class="s2">&quot;</span><span class="k">)</span><span class="s2">&quot;</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="k">done</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="nb">read</span><span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;REPLY?Proceed? (y/n) &quot;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="o">{</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;\nAborted.&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"> </span><span class="o">}</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="nb">command</span><span class="w"> </span>rm<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$@</span><span class="s2">&quot;</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="o">}</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>compdef<span class="w"> </span><span class="nv">rm</span><span class="o">=</span>rm
+</span></code></pre></div>
+<p>The last part <code>compdef rm=rm</code> makes sure the tab completion still works.</p>
+<p>Now every time you try to <code>rm -rf FOLDER</code> the shell will ask if you want to delete the folder using the full path.</p>
+<h2 id="2026-04-06">2026-04-06</h2>
+<p>tags: spacex, ipo, gemma, llm</p>
+<h3 id="spacex-ipo">Spacex IPO</h3>
+<p>very interesting insight into the IPO and why it might not be a good idea to invest...</p>
+<p><a href="https://news.ycombinator.com/item?id=47613231">hackernews</a></p>
+<h3 id="gemma-4-how-to-run-locally">Gemma 4 - How to Run Locally</h3>
+<p>Run Google’s new Gemma 4 models locally, including E2B, E4B, 26B A4B, and 31B.</p>
+<p><a href="https://unsloth.ai/docs/models/gemma-4">link</a></p>
+<h2 id="2026-02-28">2026-02-28</h2>
+<h3 id="opencode">opencode</h3>
+<p>tags: qwen3, llama.cpp, opencode, hackernews</p>
+<p>Here is nice little tutorial on how to setup opencode with a local model.</p>
+<p><a href="https://gist.github.com/alexpotato/5b76989c24593962898294038b5b835b">OpenCode + Llama.cpp Setup Guide</a></p>
+<p>I found this guide on the <code>hackernews</code> article:</p>
+<p><a href="https://news.ycombinator.com/item?id=47199781">Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers</a></p>
+<h2 id="2026-02-16">2026-02-16</h2>
+<h3 id="blocking-youtube-shorts">Blocking Youtube shorts</h3>
+<p>tags: youtube, ublock, chrome</p>
+<p>I'm using Chrome on macos with <a href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en">ublock origin lite</a> extension.</p>
+<p>Copy and paste the <a href="https://raw.githubusercontent.com/i5heu/ublock-hide-yt-shorts/master/list.txt">rules</a> into <code>Custom Filters</code> text box. Now reload youtube and
+the shorts should disappear.</p>
+<p>See:</p>
+<p><a href="https://github.com/i5heu/ublock-hide-yt-shorts/">uBlock filter list to hide all YouTube Shorts</a></p>
+<h2 id="2026-02-14">2026-02-14</h2>
+<h3 id="physarum-step-by-step">physarum-step-by-step</h3>
+<p>Finished my first project with Claude Code. Amazing tool to be honest. I learned so much!</p>
+<p><a href="https://github.com/chhenning/physarum-step-by-step">physarum-step-by-step</a></p>
+<h2 id="2026-02-13">2026-02-13</h2>
+<h2 id="physarum">physarum</h2>
+<p>tags: go, slime mold, visualization</p>
+<p>Running a <code>go</code> tool.</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>brew<span class="w"> </span>install<span class="w"> </span>go
+</span></code></pre></div>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:fogleman/physarum.git
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">cd</span><span class="w"> </span>physarum
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>go<span class="w"> </span>run<span class="w"> </span>cmd/physarum/main.go
+</span></code></pre></div>
+<p>Error: `cmd/physarum/main.go:8:2: no required module provides package github.com/fogleman/physarum/pkg/physarum: go.mod file not found in current directory or any parent directory; see 'go help modules'</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>go mod init physarum
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>go mod tidy
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>go run ./cmd/physarum
+</span></code></pre></div>
+<p>Now it works.</p>
+<p>Turns out this tool does not do a realtime simulation but creates beautiful images.</p>
+<h2 id="2026-02-12">2026-02-12</h2>
+<h3 id="simulating-physarum-polycephalum-slime-mold">Simulating Physarum polycephalum slime mold</h3>
+<p>tags: generative algorithms, visualization, slime mold</p>
+<p>Simulating Physarum polycephalum slime mold generates very cool pictures. See below.</p>
+<p><a href="https://www.michaelfogleman.com/projects/physarum/">Physarum Simulation</a>
+<a href="https://cargocollective.com/sagejenson/physarum">Physarum transport model</a>
+<a href="https://www.youtube.com/watch?v=X-iSQQgOd1A">Coding Adventure: Ant and Slime Simulations</a></p>
+<h2 id="2026-02-08">2026-02-08</h2>
+<h3 id="72m-points-of-interest">72M Points of Interest</h3>
+<p>tags: venues, poi, duckdb</p>
+<p>Interesting blog post about a dataset with 72M Points of Interest (POI) including their website.</p>
+<p>Not only does Mark present the data but he also shows how to examine it using <code>duckdb</code>.</p>
+<p><a href="https://tech.marksblogg.com/overture-places-pois.html">72M Points of Interest</a></p>
+<h2 id="2026-02-07">2026-02-07</h2>
+<h3 id="debugging-python-in-vscode">Debugging Python in vscode</h3>
+<p>Hopefully for the last time in my live this is the correct <code>launch.json</code> for debugging a Python script inside vscode.</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">{</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0.2.0&quot;</span><span class="p">,</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">  </span><span class="nt">&quot;configurations&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Python: Current File&quot;</span><span class="p">,</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;debugpy&quot;</span><span class="p">,</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">      </span><span class="nt">&quot;request&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;launch&quot;</span><span class="p">,</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">      </span><span class="nt">&quot;program&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${file}&quot;</span><span class="p">,</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">      </span><span class="nt">&quot;console&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;integratedTerminal&quot;</span><span class="p">,</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">        </span><span class="nt">&quot;PYTHONPATH&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${workspaceFolder}&quot;</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="w">      </span><span class="p">}</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="w">  </span><span class="p">]</span>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="p">}</span>
+</span></code></pre></div>
+<h2 id="2026-02-05">2026-02-05</h2>
+<h3 id="docling">docling</h3>
+<p>tags: todo, ocr, ibm, docling, pdf</p>
+<p>Docling converts messy documents into structured data and simplifies downstream document and AI processing by detecting tables, formulas, reading order, OCR, and much more.</p>
+<p>It's github repo has over 52K stars!</p>
+<p><a href="https://simonwillison.net/2024/Nov/3/docling/">How to use cli and python</a></p>
+<h2 id="2026-01-27">2026-01-27</h2>
+<h3 id="sqliterc">.sqliterc</h3>
+<p>tags: sqlite, dot file</p>
+<p>The default config for sqlite's cli tool are not very good when displaying data in the terminal. But sqlite does support a config file
+called <code>.sqliterc</code> in your home folder.</p>
+<p>Here is mine:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>.headers on
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>.mode column
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>.nullvalue NULL
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>.prompt &quot;sqlite&gt; &quot;
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>.timer on
+</span></code></pre></div>
+<h2 id="2026-01-23">2026-01-23</h2>
+<h3 id="postgres_fdw">postgres_fdw</h3>
+<p>tags: postgres, aws, rds</p>
+<p>I have been using Postgres' <a href="https://www.postgresql.org/docs/current/contrib-dblink-connect.html">dblink_connect</a> for the longest time.</p>
+<p>Turns out there is possibly an even better way. Enter <a href="https://www.postgresql.org/docs/current/postgres-fdw.html">postgres_fdw</a>. It is an supported
+extension even by AWS' RDS and it let's you query remote tables in normal sql.</p>
+<p>An example:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="n">EXTENSION</span><span class="w"> </span><span class="n">postgres_fdw</span><span class="p">;</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="k">CREATE</span><span class="w"> </span><span class="n">SERVER</span><span class="w"> </span><span class="n">remote_pg</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="k">FOREIGN</span><span class="w"> </span><span class="k">DATA</span><span class="w"> </span><span class="n">WRAPPER</span><span class="w"> </span><span class="n">postgres_fdw</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="k">OPTIONS</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="k">host</span><span class="w"> </span><span class="s1">&#39;other-db.abcdefg.us-east-1.rds.amazonaws.com&#39;</span><span class="p">,</span>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="w">    </span><span class="n">port</span><span class="w"> </span><span class="s1">&#39;5432&#39;</span><span class="p">,</span>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="n">dbname</span><span class="w"> </span><span class="s1">&#39;orders&#39;</span>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="p">);</span>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">USER</span><span class="w"> </span><span class="n">MAPPING</span><span class="w"> </span><span class="k">FOR</span><span class="w"> </span><span class="n">my_user</span>
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="n">SERVER</span><span class="w"> </span><span class="n">remote_pg</span>
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="k">OPTIONS</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a><span class="w">    </span><span class="k">user</span><span class="w"> </span><span class="s1">&#39;remote_user&#39;</span><span class="p">,</span>
+</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a><span class="w">    </span><span class="n">password</span><span class="w"> </span><span class="s1">&#39;secret&#39;</span>
+</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a><span class="p">);</span>
+</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>
+</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">FOREIGN</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">foreign_orders</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-7-19"><a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a><span class="w">    </span><span class="n">id</span><span class="w"> </span><span class="nb">bigint</span><span class="p">,</span>
+</span><span id="__span-7-20"><a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a><span class="w">    </span><span class="n">total</span><span class="w"> </span><span class="nb">numeric</span>
+</span><span id="__span-7-21"><a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a><span class="p">)</span>
+</span><span id="__span-7-22"><a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a><span class="n">SERVER</span><span class="w"> </span><span class="n">remote_pg</span>
+</span><span id="__span-7-23"><a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a><span class="k">OPTIONS</span><span class="w"> </span><span class="p">(</span><span class="k">schema_name</span><span class="w"> </span><span class="s1">&#39;public&#39;</span><span class="p">,</span><span class="w"> </span><span class="k">table_name</span><span class="w"> </span><span class="s1">&#39;orders&#39;</span><span class="p">);</span>
+</span></code></pre></div>
+<h3 id="a-mental-model-for-binary-classifier-confusion-matrix">A mental model for binary classifier confusion matrix</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>                    ACTUAL
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>               Positive    Negative
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>PREDICTED
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>Positive        TP           FP
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>Negative        FN           TN
+</span></code></pre></div>
+<h2 id="2026-01-22">2026-01-22</h2>
+<h3 id="dynamic-programming-tutorial">Dynamic Programming Tutorial</h3>
+<p>tags: dynamic programming, recursion</p>
+<p>It's always fun to revisit dynamic programming. This <a href="https://www.youtube.com/watch?v=66hDgWottdA">tutorial</a> is very well made.</p>
+<h3 id="how-to-build-your-own-local-ai-stack-on-linux-with-llamacpp-llama-swap-librechat-and-more">How to build your own local AI stack on Linux with llama.cpp, llama-swap, LibreChat and more</h3>
+<p>tags: llama.cpp, llm, qwen, nvidia, cuda, article, huggingface, librechat, llama-swap</p>
+<p><a href="https://imadsaddik.com/blogs/local-ai-stack-on-linux">link</a></p>
+<p>https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507/tree/main</p>
+<p>llama.cpp does not work with the <code>safetensors</code> format, it works with the <code>GGUF</code> format. This format is optimized for quick loading and saving of models, and running models efficiently on consumer hardware.</p>
+<p><a href="https://github.com/ggml-org/llama.cpp/blob/master/convert_hf_to_gguf.py">convert safetensor to gguf</a></p>
+<p>Projects that convert to gguf:</p>
+<ul>
+<li><a href="https://huggingface.co/unsloth/models">Unsloth</a></li>
+<li><a href="https://huggingface.co/bartowski">Bartowski</a></li>
+<li><a href="https://huggingface.co/TheBloke">TheBloke</a></li>
+</ul>
+<p>Avoid downloading models in FP32 or FP16 precision, as these unquantized formats require a lot of memory, especially for very large models.</p>
+<p>Instead, download quantized versions of the model in the GGUF format, because they use less memory. A great starting point is the Q8_K quantization level.</p>
+<h3 id="quantization-types">Quantization Types</h3>
+<p>tags: huggingface, llm</p>
+<p><a href="https://huggingface.co/docs/hub/gguf#quantization-types">huggingface's quantization-types</a></p>
+<h3 id="ocr-with-layout">OCR with layout</h3>
+<p>tags: ocr, layout, docling, doctags</p>
+<p><code>Grounded Text</code> refers to text directly linked or anchored to specific visual regions in an image (like a bounding box), crucial for vision-language models (VLM) to understand where text is, while <code>DocTags</code> (Document Tags) are high-level semantic labels/metadata applied to entire documents or sections, offering what the content is about, with Grounding focusing on spatial, visual-textual alignment (e.g., a price tag on a product image) and DocTags on semantic classification (e.g., "invoice," "receipt," "contract") for better organization and retrieval in document understanding tasks.</p>
+<p><a href="https://docling-project.github.io/docling/concepts/docling_document/">docling document</a></p>
+<h2 id="2026-01-21">2026-01-21</h2>
+<h3 id="unconventional-postgresql-optimizations">Unconventional PostgreSQL Optimizations</h3>
+<p>tags: postgres, sql</p>
+<p><a href="https://news.ycombinator.com/item?id=46692116">Unconventional PostgreSQL Optimizations</a></p>
+<h3 id="magick">Magick</h3>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>brew<span class="w"> </span>install<span class="w"> </span>imagemagick
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>magick<span class="w"> </span>~/Downloads/image.jpeg<span class="w"> </span>-quality<span class="w"> </span><span class="m">50</span><span class="w"> </span>~/Downloads/image_small.jpeg
+</span></code></pre></div>
+<h2 id="2026-01-20">2026-01-20</h2>
+<h3 id="espn-unofficial-public-api">ESPN Unofficial Public API</h3>
+<p>tags: sports, api, espn</p>
+<p><code>Disclaimer</code>: This is documentation for ESPN's undocumented public API. I am not affiliated with ESPN. Use responsibly and follow ESPN's terms of service.</p>
+<p><a href="https://github.com/pseudo-r/Public-ESPN-API">public ESPN API</a></p>
+<h3 id="backtestingpy">Backtesting.py</h3>
+<p>tags: python, finance, trading, simulation, pandas</p>
+<p>Backtest trading strategies in Python. See <a href="https://kernc.github.io/backtesting.py/">backtesting.py</a></p>
+<p>Also, <a href="https://github.com/rsheftel/pandas_market_calendars">pandas_market_calendars</a></p>
+<h2 id="2026-01-17">2026-01-17</h2>
+<h3 id="docker-cheat-sheet">Docker Cheat Sheet</h3>
+<p>tags: docker, cheat sheet</p>
+<p><a href="https://docker.how/">docker cheat sheet</a></p>
+<h2 id="2026-01-15">2026-01-15</h2>
+<h3 id="why-duckdb-is-my-first-choice-for-data-processing">Why DuckDB is my first choice for data processing</h3>
+<p>tags: duckdb, hackernews</p>
+<p><a href="https://news.ycombinator.com/item?id=46645176">Why DuckDB is my first choice for data processing </a></p>
+<h3 id="ask-hn-how-are-you-doing-rag-locally">Ask HN: How are you doing RAG locally?</h3>
+<p>tags: RAG, hackernews, embedding</p>
+<p><a href="https://news.ycombinator.com/item?id=46616529">Ask HN: How are you doing RAG locally?</a></p>
+<h2 id="2026-01-14">2026-01-14</h2>
+<h3 id="turn-off-type-checking">turn off type checking</h3>
+<p>tags: vscode, python, pylance</p>
+<p>During development the constant type checking will result in red squiggles inside the code. I find that really annoying and distraction.</p>
+<p>In your <code>.vscode/settings.json</code> just add the next line.</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nt">&quot;python.analysis.typeCheckingMode&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;off&quot;</span>
+</span></code></pre></div>
+<h2 id="2026-01-10">2026-01-10</h2>
+<h3 id="opencode_1">OpenCode</h3>
+<p>tags: LLM, agent, vibe coding, todo</p>
+<p>The open source AI coding agent.</p>
+<p><a href="https://opencode.ai/">OpenCode</a>
+<a href="https://github.com/anomalyco/opencode">github</a></p>
+<h3 id="machine-learning-statistical-inference-and-induction">Machine Learning, Statistical Inference and Induction</h3>
+<p>tags: ml, article, todo</p>
+<p><a href="https://web.archive.org/web/20250815161703/http://www.bactra.org/notebooks/learning-inference-induction.html">Machine Learning, Statistical Inference and Induction</a></p>
+<h3 id="the-q-k-v-matrices">The Q, K, V Matrices</h3>
+<p>tags: todo, transformer, attention</p>
+<p><a href="https://news.ycombinator.com/item?id=46523887">The Q, K, V Matrices</a></p>
+<h3 id="use-claude-code-to-query-600-gb-indexes-over-hacker-news-arxiv-etc">Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.</h3>
+<p>tags: llm, search, todo, sql, fts</p>
+<p><a href="https://news.ycombinator.com/item?id=46442245">Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.</a></p>
+<h3 id="raymond-hettinger-modern-solvers-problems-well-defined-are-problems-solved-pycon-2019">Raymond Hettinger - Modern solvers: Problems well-defined are problems solved - PyCon 2019</h3>
+<p>tags: youtube, solvers, search, rl, python, tutorial</p>
+<p><a href="https://www.youtube.com/watch?v=_GP9OpZPUYc">video</a>
+<a href="https://rhettinger.github.io/">doc</a></p>
+<h2 id="2026-01-05">2026-01-05</h2>
+<h3 id="struddel">Struddel</h3>
+<p>tags: music, melody, struddel</p>
+<p>Twinkle Twinkle Little Star</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>note(`
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>&lt;c c g g a a g@2
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a> f f e e d d c@2
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a> g g f f e e d@2
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a> g g f f e e d@2
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a> c c g g a a g@2
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>  f f e e d d c@2&gt;*4
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>`).sound(&#39;piano&#39;)
+</span></code></pre></div>
+<h3 id="openml">OpenML</h3>
+<p>tags: dataset, ml, sklearn</p>
+<p><a href="https://www.openml.org/">openml</a></p>
+<p><a href="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_openml.html">fetch_openml</a></p>
+<h3 id="vehicle-dataset">Vehicle Dataset</h3>
+<p>tags: dataset, kaggle, ml</p>
+<p><a href="https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data">dataset</a></p>
+<h2 id="20260101">20260101</h2>
+<h3 id="comtrade">Comtrade</h3>
+<p>tags: python, comtrade</p>
+<p><a href="https://github.com/dparrini/python-comtrade">Python Comtrade</a></p>
+<p><a href="https://github.com/miguelmoreto/pycomtrade">pyComtrade</a></p>
+<h2 id="20251231">20251231</h2>
+<h3 id="postgres-extensions">postgres extensions</h3>
+<p>tags: postgres, vector db, pgvector, FTS</p>
+<p><a href="https://github.com/timescale/pgvectorscale">pgvectorscale</a>
+<a href="https://github.com/timescale/pg_textsearch">pg_textsearch</a></p>
+<h2 id="2025-12-29">2025-12-29</h2>
+<h3 id="create-a-password">create a password</h3>
+<p>tags: cli, sh</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>openssl<span class="w"> </span>rand<span class="w"> </span>-base64<span class="w"> </span><span class="m">24</span>
+</span></code></pre></div>
+<h3 id="add-markdown-to-google-document">Add markdown to Google Document</h3>
+<p>tags: markdown, Google Doc</p>
+<p>Inside a Google document click on Tool-&gt;Preferences. There <code>Enable Markdown</code>. Now you can <code>Paste From Markdown</code>.</p>
+<h2 id="2025-12-23">2025-12-23</h2>
+<h3 id="blog-links">blog links</h3>
+<p>tags: blog, markdown</p>
+<p>I have been searching for a good blog solution for awhile and finally I have found it.</p>
+<p><a href="https://squidfunk.github.io/mkdocs-material/reference/">Material for mkdocs</a>
+<a href="https://squidfunk.github.io/mkdocs-material/publishing-your-site/">github workflow</a>
+<a href="https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/caption/">pymdown extension</a></p>
+<h3 id="instant-database-clones-with-postgresql-18">Instant database clones with PostgreSQL 18</h3>
+<p>tags: postgresql, sql</p>
+<p><a href="https://boringsql.com/posts/instant-database-clones/">blog</a>
+<a href="https://news.ycombinator.com/item?id=46363360">hackernews</a></p>
+<h2 id="2025-12-22">2025-12-22</h2>
+<h3 id="color-science">color-science</h3>
+<p>tags: python, color</p>
+<p><a href="https://github.com/colour-science/colour">repo</a></p>
+<h2 id="2025-12-21">2025-12-21</h2>
+<h3 id="hands-on-ml-with-scikit-learn-and-pytorch">Hands-On ML with Scikit-Learn and PyTorch</h3>
+<p>tags: python, ml, sklearn, torch, pandas, matplotlib, book</p>
+<p>There is a new edition of my favorite ML book. This time with pytorch!</p>
+<p><a href="https://github.com/ageron/handson-mlp/tree/main">repo</a></p>
+<p><a href="https://github.com/ageron/handson-mlp/blob/main/tools_numpy.ipynb">numpy cheatsheet</a>
+<a href="https://github.com/ageron/handson-mlp/blob/main/tools_pandas.ipynb">pandas cheatsheet</a>
+<a href="https://github.com/ageron/handson-mlp/blob/main/tools_matplotlib.ipynb">matplotlib cheatsheet</a></p>
+<h2 id="leap-71">Leap 71</h2>
+<p>tags: company, space, rocket, computational engineering</p>
+<p><a href="https://youtu.be/6Xx1GXjRbMk?si=ZAu1NdyTnzdl_TA4">video</a>
+<a href="https://leap71.com/">company</a>
+<a href="https://www.linkedin.com/in/linkayser/">Lin Kayser</a></p>
+<h2 id="resumecv">ResumeCV</h2>
+<p>tags: resume, yaml, pdf</p>
+<p>Great module to create good looking resumes. The resume data is a yaml file. And that is easy to be fed into a LLM!</p>
+<p><a href="https://docs.rendercv.com/">doc</a></p>
+<h2 id="2025-12-20">2025-12-20</h2>
+<h3 id="jekyll">Jekyll</h3>
+<p>tags: website, blog, github, site generator</p>
+<p>(jekyll)[https://jekyllrb.com/]</p>
+<h3 id="material-for-mkdocs">Material for MkDocs</h3>
+<p>tags: site generator, python, blog, website</p>
+<p><a href="https://github.com/squidfunk/mkdocs-material/">repo</a></p>
+<p><a href="https://jameswillett.dev/getting-started-with-material-for-mkdocs">tutorial</a></p>
+<p><a href="https://github.com/mkdocs-material/create-blog">blog example</a>
+<a href="https://www.youtube.com/watch?v=pPEUhfTZswc&amp;list=PLw_jGKXm9lIaJCD8YClu6cAz1TcFdJdIf&amp;index=9">How To Build and Deploy a Stunning Blog for FREE using Material for MkDocs</a></p>
+<h2 id="2025-12-19">2025-12-19</h2>
+<h3 id="self-hosting-challenges-and-how-to-limit-scraper-bots">Self hosting challenges and how to limit scraper bots</h3>
+<p>tags: scraper, bot, blog, vps, self hosting, hackernews</p>
+<p>This article prompted me to do some research of how to deal with excessive scraper bots when self hosting an app or a blog.</p>
+<p><a href="https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/">I got hacked, my server started mining Monero this morning.</a></p>
+<p><a href="https://github.com/TecharoHQ/anubis">Anubis</a> is a Web AI Firewall Utility that weighs the soul of your connection using one or more challenges in order to protect upstream resources from scraper bots. Also see <a href="https://news.ycombinator.com/item?id=46294144">this on hackernews</a>.</p>
+<h4 id="server-side-rate-limiting-web-server">Server-Side Rate Limiting (Web Server)</h4>
+<p>Asking Gemini for a good solutions to avoid scraper bots -&gt; <a href="https://aistudio.google.com/prompts/1ppxjZccFQnDSDKu9vaDKSpe7LeFUBeV3">gemini chat</a></p>
+<p>You can configure your web server to strictly limit how fast any single IP can download pages. This makes scraping painfully slow for bots, effectively discouraging them.</p>
+<p>If you use <code>Nginx</code>:
+Add this to your nginx.conf (http block):</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>limit_req_zone $binary_remote_addr zone=one:10m rate=1r/s;
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>location / {
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>    limit_req zone=one burst=10 nodelay;
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>    # ... rest of config
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>}
+</span></code></pre></div>
+<p>This limits every IP to roughly 1 request per second. Real users won't notice, but scrapers trying to fetch 100 pages at once will get rejected (Error 503).</p>
+<h4 id="hard-limit-via-custom-script-advanced">"Hard" Limit via Custom Script (Advanced)</h4>
+<p>If you absolutely must ensure the server shuts down after a certain bandwidth limit (e.g., 1 TB), you have to script it yourself.</p>
+<p><strong>Option A: Bandwidth Speed Limit (tc or wondershaper)</strong></p>
+<p>You can cap your server's uplink speed. For example, if you cap your upload speed to 10 Mbps, the maximum theoretical outbound traffic you can generate in a month is about 3.2 TB, making it physically impossible to exceed the 20 TB limit.</p>
+<p><strong>Option B: Auto-Shutdown Script</strong></p>
+<p>Install a tool like <code>vnstat</code> to monitor traffic, and write a simple cron script that checks usage every hour.</p>
+<p>Add it to crontab to run hourly.</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="ch">#!/bin/bash</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="c1"># Get current monthly TX (transmit/egress) in GiB</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="nv">USAGE</span><span class="o">=</span><span class="k">$(</span>vnstat<span class="w"> </span>--oneline<span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="s1">&#39;;&#39;</span><span class="w"> </span>-f10<span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="s1">&#39; &#39;</span><span class="w"> </span>-f1<span class="k">)</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="c1"># Set limit to 1000 GiB (1 TB)</span>
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="nv">LIMIT</span><span class="o">=</span><span class="m">1000</span>
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>
+</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="c1"># Compare (using integer math)</span>
+</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="k">if</span><span class="w"> </span><span class="o">((</span><span class="w"> </span><span class="k">$(</span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$USAGE</span><span class="s2"> &gt; </span><span class="nv">$LIMIT</span><span class="s2">&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>bc<span class="w"> </span>-l<span class="k">)</span><span class="w"> </span><span class="o">))</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Limit exceeded. Shutting down network interface.&quot;</span>
+</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="w">    </span><span class="c1"># Choose one:</span>
+</span><span id="__span-15-12"><a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a><span class="w">    </span><span class="c1"># ip link set eth0 down   # Kills network</span>
+</span><span id="__span-15-13"><a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a><span class="w">    </span><span class="c1"># poweroff                # Shuts down server completely</span>
+</span><span id="__span-15-14"><a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a><span class="k">fi</span>
+</span></code></pre></div>
+<h3 id="htmx">htmx</h3>
+<p>tags: htmx, javascript, html, webapp, hackernews</p>
+<p><a href="https://news.ycombinator.com/item?id=46312973">Please just try HTMX</a></p>
+<p>A quote:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>Hey, I created htmx and while I appreciate the publicity, I’m not a huge fan of these types of hyperbolic articles. There are lots of different ways to build web apps with their own strengths and weaknesses. I try to assess htmx’s strengths and weaknesses here:
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>https://htmx.org/essays/when-to-use-hypermedia/
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>Also, please try unpoly:
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>It’s another excellent hypermedia oriented library
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>
+</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>Edit: the article is actually not nearly as unreasonable as I thought based on the just-f*king-use template. Still prefer a chill vibe for htmx though.
+</span></code></pre></div>
+<p>See: <a href="https://github.com/unpoly/unpoly">unpoly</a></p>
+<h3 id="unidecode">unidecode</h3>
+<p>tags: ascii, unicode, string, python</p>
+<p><a href="https://github.com/avian2/unidecode">unidecode</a> is a great lib for a common problem. How to make a reasonable ascii string out of unicode?</p>
+<p>For example:</p>
+<ul>
+<li><code>unidecode('kožušček')</code> -&gt; <code>'kozuscek'</code></li>
+<li><code>unidecode('30 \U0001d5c4\U0001d5c6/\U0001d5c1')</code> -&gt; <code>'30 km/h'</code></li>
+</ul>
+<h2 id="2025-12-18">2025-12-18</h2>
+<h3 id="pydantic-ai">Pydantic AI</h3>
+<p>tags: pydantic, Python, AI, Agents</p>
+<p><a href="https://github.com/pydantic/pydantic-ai">repo</a></p>
+<h3 id="langchain-course">Langchain course</h3>
+<p>tags: langchain, python, AI, Agents</p>
+<p><a href="https://academy.langchain.com/courses/foundation-introduction-to-langchain-python">course</a></p>
+<h3 id="postgresql-distinct">Postgresql distinct</h3>
+<p>tags: postgres, sql</p>
+<p>Great overview of how to use the <code>distinct</code> keyword in PostgreSQL.</p>
+<p><a href="https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql">https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql</a></p>
+<p>A few code examples:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="n">TEMP</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">tmp_employee</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="w">    </span><span class="n">id</span><span class="w">         </span><span class="nb">INT</span><span class="p">,</span>
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="w">    </span><span class="n">name</span><span class="w">       </span><span class="nb">TEXT</span><span class="p">,</span>
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="w">    </span><span class="n">department</span><span class="w"> </span><span class="nb">TEXT</span><span class="p">,</span>
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="w">    </span><span class="n">salary</span><span class="w">     </span><span class="nb">INT</span>
+</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="p">)</span>
+</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="p">;</span>
+</span><span id="__span-17-8"><a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a>
+</span><span id="__span-17-9"><a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">tmp_employee</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">department</span><span class="p">,</span><span class="w"> </span><span class="n">salary</span><span class="p">)</span><span class="w"> </span><span class="k">VALUES</span>
+</span><span id="__span-17-10"><a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a><span class="p">(</span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Sara Roberts&#39;</span><span class="p">,</span><span class="w">     </span><span class="s1">&#39;Accounting&#39;</span><span class="p">,</span><span class="w">               </span><span class="mi">13845</span><span class="p">),</span>
+</span><span id="__span-17-11"><a id="__codelineno-17-11" name="__codelineno-17-11" href="#__codelineno-17-11"></a><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Benjamin Brown&#39;</span><span class="p">,</span><span class="w">   </span><span class="s1">&#39;Business Development&#39;</span><span class="p">,</span><span class="w">      </span><span class="mi">7386</span><span class="p">),</span>
+</span><span id="__span-17-12"><a id="__codelineno-17-12" name="__codelineno-17-12" href="#__codelineno-17-12"></a><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Carolyn Carter&#39;</span><span class="p">,</span><span class="w">   </span><span class="s1">&#39;Engineering&#39;</span><span class="p">,</span><span class="w">               </span><span class="mi">8366</span><span class="p">),</span>
+</span><span id="__span-17-13"><a id="__codelineno-17-13" name="__codelineno-17-13" href="#__codelineno-17-13"></a><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Janet Hall&#39;</span><span class="p">,</span><span class="w">       </span><span class="s1">&#39;Human Resources&#39;</span><span class="p">,</span><span class="w">            </span><span class="mi">2826</span><span class="p">),</span>
+</span><span id="__span-17-14"><a id="__codelineno-17-14" name="__codelineno-17-14" href="#__codelineno-17-14"></a><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Chris Phillips&#39;</span><span class="p">,</span><span class="w">   </span><span class="s1">&#39;Legal&#39;</span><span class="p">,</span><span class="w">                     </span><span class="mi">3706</span><span class="p">),</span>
+</span><span id="__span-17-15"><a id="__codelineno-17-15" name="__codelineno-17-15" href="#__codelineno-17-15"></a><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;James Cunningham&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Legal&#39;</span><span class="p">,</span><span class="w">                     </span><span class="mi">3706</span><span class="p">),</span>
+</span><span id="__span-17-16"><a id="__codelineno-17-16" name="__codelineno-17-16" href="#__codelineno-17-16"></a><span class="p">(</span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Richard Bradley&#39;</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Marketing&#39;</span><span class="p">,</span><span class="w">                </span><span class="mi">11272</span><span class="p">),</span>
+</span><span id="__span-17-17"><a id="__codelineno-17-17" name="__codelineno-17-17" href="#__codelineno-17-17"></a><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Richard Fox&#39;</span><span class="p">,</span><span class="w">      </span><span class="s1">&#39;Product Management&#39;</span><span class="p">,</span><span class="w">       </span><span class="mi">13449</span><span class="p">),</span>
+</span><span id="__span-17-18"><a id="__codelineno-17-18" name="__codelineno-17-18" href="#__codelineno-17-18"></a><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Evelyn Rodriguez&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Research and Development&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">10628</span><span class="p">),</span>
+</span><span id="__span-17-19"><a id="__codelineno-17-19" name="__codelineno-17-19" href="#__codelineno-17-19"></a><span class="p">(</span><span class="mi">17</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Benjamin Carter&#39;</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Sales&#39;</span><span class="p">,</span><span class="w">                     </span><span class="mi">6197</span><span class="p">),</span>
+</span><span id="__span-17-20"><a id="__codelineno-17-20" name="__codelineno-17-20" href="#__codelineno-17-20"></a><span class="p">(</span><span class="mi">24</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Jessica Elliott&#39;</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Services&#39;</span><span class="p">,</span><span class="w">                 </span><span class="mi">14542</span><span class="p">),</span>
+</span><span id="__span-17-21"><a id="__codelineno-17-21" name="__codelineno-17-21" href="#__codelineno-17-21"></a><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Bonnie Robertson&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Support&#39;</span><span class="p">,</span><span class="w">                  </span><span class="mi">12674</span><span class="p">),</span>
+</span><span id="__span-17-22"><a id="__codelineno-17-22" name="__codelineno-17-22" href="#__codelineno-17-22"></a><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="w">  </span><span class="s1">&#39;Jean Bailey&#39;</span><span class="p">,</span><span class="w">      </span><span class="s1">&#39;Training&#39;</span><span class="p">,</span><span class="w">                 </span><span class="mi">13230</span><span class="p">)</span>
+</span><span id="__span-17-23"><a id="__codelineno-17-23" name="__codelineno-17-23" href="#__codelineno-17-23"></a><span class="p">;</span>
+</span></code></pre></div>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="c1">-- get all unique departments</span>
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">department</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">tmp_employee</span><span class="p">;</span>
+</span></code></pre></div>
+<h4 id="distinct-on">DISTINCT ON</h4>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="c1">-- get the highest earners per department</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="c1">-- use the employee id as the tiebreaker</span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="p">(</span><span class="n">department</span><span class="p">)</span>
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="w">    </span><span class="o">*</span>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="k">FROM</span>
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="w">    </span><span class="n">tmp_employee</span>
+</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span>
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="w">    </span><span class="n">department</span><span class="p">,</span>
+</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a><span class="w">    </span><span class="n">salary</span><span class="w"> </span><span class="k">DESC</span><span class="p">,</span>
+</span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a><span class="w">    </span><span class="n">id</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
+</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a><span class="p">;</span>
+</span></code></pre></div>
+<h4 id="distinct-from">DISTINCT FROM</h4>
+<p><code>DISTINCT FROM</code> treats NULL values as real value and so comparing will get a boolean answers.</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="k">WITH</span><span class="w"> </span><span class="n">old_data</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">emp_id</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Engineer&#39;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">title</span><span class="w"> </span><span class="k">UNION</span><span class="w"> </span><span class="k">ALL</span>
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span><span class="w"> </span><span class="k">UNION</span><span class="w"> </span><span class="k">ALL</span>
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Manager&#39;</span>
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="p">),</span>
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="n">new_data</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">emp_id</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Engineer&#39;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">title</span><span class="w"> </span><span class="k">UNION</span><span class="w"> </span><span class="k">ALL</span>
+</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Analyst&#39;</span><span class="w"> </span><span class="k">UNION</span><span class="w"> </span><span class="k">ALL</span>
+</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="k">NULL</span>
+</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="p">)</span>
+</span><span id="__span-20-11"><a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a><span class="k">SELECT</span>
+</span><span id="__span-20-12"><a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a><span class="w">    </span><span class="n">o</span><span class="p">.</span><span class="n">emp_id</span><span class="p">,</span>
+</span><span id="__span-20-13"><a id="__codelineno-20-13" name="__codelineno-20-13" href="#__codelineno-20-13"></a><span class="w">    </span><span class="n">o</span><span class="p">.</span><span class="n">title</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">old_title</span><span class="p">,</span>
+</span><span id="__span-20-14"><a id="__codelineno-20-14" name="__codelineno-20-14" href="#__codelineno-20-14"></a><span class="w">    </span><span class="n">n</span><span class="p">.</span><span class="n">title</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">new_title</span><span class="p">,</span>
+</span><span id="__span-20-15"><a id="__codelineno-20-15" name="__codelineno-20-15" href="#__codelineno-20-15"></a><span class="w">    </span><span class="n">o</span><span class="p">.</span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">.</span><span class="n">title</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">equals_operator</span><span class="p">,</span><span class="w">       </span><span class="c1">-- this will break when one side is NULL</span>
+</span><span id="__span-20-16"><a id="__codelineno-20-16" name="__codelineno-20-16" href="#__codelineno-20-16"></a><span class="w">    </span><span class="n">o</span><span class="p">.</span><span class="n">title</span><span class="w"> </span><span class="k">IS</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">n</span><span class="p">.</span><span class="n">title</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">changed</span><span class="w"> </span><span class="c1">-- this works even when one side is NULL</span>
+</span><span id="__span-20-17"><a id="__codelineno-20-17" name="__codelineno-20-17" href="#__codelineno-20-17"></a><span class="k">FROM</span><span class="w"> </span><span class="n">old_data</span><span class="w"> </span><span class="n">o</span>
+</span><span id="__span-20-18"><a id="__codelineno-20-18" name="__codelineno-20-18" href="#__codelineno-20-18"></a><span class="k">JOIN</span><span class="w"> </span><span class="n">new_data</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="k">USING</span><span class="w"> </span><span class="p">(</span><span class="n">emp_id</span><span class="p">);</span>
+</span></code></pre></div>
+<h4 id="array_agg">ARRAY_AGG</h4>
+<p>Bonus!</p>
+<p>Aggregate all values into a json.</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="k">SELECT</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="w">    </span><span class="n">department</span><span class="p">,</span>
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="w">    </span><span class="n">ARRAY_AGG</span><span class="p">(</span><span class="n">name</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">employees</span>
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="k">FROM</span>
+</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="w">    </span><span class="n">tmp_employee</span>
+</span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span>
+</span><span id="__span-21-7"><a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a><span class="w">    </span><span class="n">department</span>
+</span><span id="__span-21-8"><a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="p">;</span>
+</span></code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Christian Henning.  <br> Questions? Insights? Project Ideas? <a href="mailto:diedatenschleuder@gmail.com">Email Me!</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "content.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
